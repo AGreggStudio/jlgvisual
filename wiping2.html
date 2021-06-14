@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	 <title>JLG Visual</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Josefin+Slab:400,700italic' rel='stylesheet' type='text/css'>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@285&display=swap" rel="stylesheet">
+	<script>
+	// init controller
+	var controller = new ScrollMagic.Controller();
+</script>
+
+	 <link rel="stylesheet" href="style-main.css" type="text/css" media="all">
+<style>
+
+body, html {
+  height: 100%
+	  
+}
+#pinContainer {
+  
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+.panel {
+
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  text-align:center;
+  z-index: 1;
+	
+	
+
+}
+	
+	
+	
+	#drone {
+		position:absolute;
+		z-index: 2;
+		
+		
+	}
+	
+
+
+</style>
+	
+	
+	
+
+
+</head>
+<body>
+	
+		<!--Mobile drop down-->	
+<div class="topnav" >
+	
+  <a href="#home" class="active"></a>
+  <!-- Navigation links (hidden by default) -->
+	<img class="logolink"src="images/1.5x/jlg_fix@1.5x.png" width="200">
+	
+  <div id="myLinks">
+    <a href="PHindexscroll.html">Photography</a>
+    <a href="MoDindex.html">Motion Design</a>
+    <a href="MPindex.html">Projects</a>
+	<a href="Contact.html">Contact</a>
+	
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon"  onclick="myFunction()">
+    <i class="fa fa-bars"><img src="images/hamburg.png"></i>
+  </a>
+		
+</div>
+	
+<div style="height:100%;background:#ffffff;">
+	
+
+	
+	     <section class="splash" >
+			
+				<img class="T1" src="images/top1pos.png"  alt="Tree Drawing.">
+				<img class="T2" src="images/top2pos.png" alt="Tree Drawing."> 
+				<img class="T3"src="images/top3pos.png" alt="Tree Drawing."> 
+				<img class="T4"src="images/top4pos.png" alt="Tree Drawing."> 
+				<img class="M1" src="images/middle1pos.png" alt="Tree Drawing.">  
+				<img class="M2" src="images/middle2pos.png" alt="Tree Drawing."> 
+				<img class="M3" src="images/middle3pos.png" alt="Tree Drawing."> 
+				<img class="M4" src="images/middle4pos.png" alt="Tree Drawing.">
+				<img class="B1" src="images/Bottom1pos.png" alt="Tree Drawing."> 
+				<img class="B2" src="images/bottom2pos.png" alt="Tree Drawing."> 
+				<img class="B3" src="images/bottom3pos.png" alt="Tree Drawing."> 
+				<img class="B4" src="images/bottom4pos.png" alt="Tree Drawing.">
+
+	 
+            	<div class="splash-content"></div>		
+        </section>  
+
+
+		<section>
+			<aside>
+				
+
+		  <ul class="super">
+			  
+			  		
+		     <img class="logo" src="images/rectanglepos.png" alt="yellow rectangle">
+	
+			   
+			  
+			  <h1>Simple Poem &#x2193; </h1>
+		
+		  </ul>  
+				
+				
+			</aside>
+			
+		</section>
+	
+	
+<style>
+.grid { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 7px;
+  align-items: stretch;
+  justify-items: center;
+  position:fixed;
+	
+  }
+.grid img {
+  border: 1px solid white;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+}
+</style>
+	
+					<br><br><br><br><br>
+			<section class="grid">
+					<img class="T1" src="images/top1pos.png"  alt="Tree Drawing.">
+					<img class="T2" src="images/top2pos.png" alt="Tree Drawing."> 
+					<img class="T3"src="images/top3pos.png" alt="Tree Drawing."> 
+					<img class="T4"src="images/top4pos.png" alt="Tree Drawing."> 
+					<img class="M1" src="images/middle1pos.png" alt="Tree Drawing.">  
+					<img class="M2" src="images/middle2pos.png" alt="Tree Drawing."> 
+					<img class="M3" src="images/middle3pos.png" alt="Tree Drawing."> 
+					<img class="M4" src="images/middle4pos.png" alt="Tree Drawing.">
+					<img class="B1" src="images/Bottom1pos.png" alt="Tree Drawing."> 
+					<img class="B2" src="images/bottom2pos.png" alt="Tree Drawing."> 
+					<img class="B3" src="images/bottom3pos.png" alt="Tree Drawing."> 
+					<img class="B4" src="images/bottom4pos.png" alt="Tree Drawing.">
+			</section>	
+	
+</div>
+
+
+<div id="pinContainer" style="position: relative;">
+	
+	
+  
+     <div class="panel first" top: 30%; style="height: 100%; width: 100%; background:white;">
+		 
+		 
+    	
+	     <video  class="responsive-image" playsinline webkit-playsinline autoplay loop muted  width="100%" height="auto" >
+  <source src="video/background%20meadow%20AE_2.mp4" type="video/mp4">
+			 
+  
+</video>
+		
+		
+		
+    
+		 
+		 <br><br><br>  <br><br><br>   
+		 <b class="quote" id="poem">
+		 "...Any one of his starts could grow for the next six hundred years and dwarf the largest factory chimney.  It could play host to generations of voles that never go to ground and several dozen species of insects whose only desire is to strip their host bare.  It could rain down ten million needles a year on its own lower branches, building up mats of soil that grow their own gardens high in the air." (The Understory, by Richard Powers, 2018)</b>
+	
+		  
+		 <br><br><br> 	 
+	<div  id="logoYellow1">
+	 		<img src="images/1.5x/jlg_fix@1.5x.png" width="100"; alt="logo">
+						 
+     </div> 
+	
+
+     </div>
+     <div class="panel second" style="height: 100%; background:none;">
+		   <b class="fade-out1">Even the bold <br>and the beautiful <br>couldn't withstand!</b>
+		
+		  <img  class="responsive-imageX"  src="images/bottles%20yellow.png" width="100%" height="auto" top="-30%"alt="2 single yellow bottle trees">
+	
+	
+	 </div>
+      
+     <div class="panel third">
+		 
+		 
+		 
+		 
+		 <img class="gif2" style="z-index: 1000; bottom: 0%; position: absolute;" src="img-gifs/black-mouse-gif.gif" width="30%" height="30%" alt="white and green park scene">
+		 	 <img class="gif3" style="z-index: 1000; bottom: 0%; position: absolute;" src="img-gifs/grey-mouse.gif" width="30%" height="30%" alt="white and green park scene">
+		 	 <img class="gif4" style="z-index: 1000; bottom: 0%; position: absolute;" src="img-gifs/grey-mouse.gif" width="30%" height="30%" alt="white and green park scene">
+		 <img class="gif5" style="z-index: 1000; bottom: 0%; position: absolute;" src="img-gifs/black-mouse2-gif.gif" width="30%" height="30%" alt="white and green park scene">
+		  <img class="gif" style="z-index: 1000; bottom: -100%; position: absolute;" src="img-gifs/white-mouse-gif" alt="white and green park scene">
+		  
+		<img class="responsive-imageX"  src="images/grass2.png" opacity: 0.5; width="100%" height="auto" alt="thick grass" >
+		 
+		
+		 
+	 </div>
+    <div class="panel fourth" style="height: 100%;  background:none;">
+		
+		 
+				<img class="responsive-imageX" src="images/tree%20major.png" opacity: 0.5; width="100%" height="auto" alt="single large gum tree">
+		
+		 
+    </div>
+	
+	<div class="panel fifth" style="height: 100%; background:white;"> 
+		
+		   <b class="fade-out">And then it became <br> something else, something other, and the tree <br>became a decoration.</b>
+		
+		
+				<img class="responsive-image" id="YC"  src="images/panel%204%20volaire%20yellow%20triangletop.png" opacity: 0.5; width="100%" height="auto" alt="gray, yellow, white apartment building">	
+	
+		
+			<img class="responsive-image1" src="img-gifs/Asset-2-grey.gif" width="10%" height="10%">
+		    <img class="responsive-image1" src="img-gifs/Asset-2black.gif" width="10%" height="10%">
+			<img class="responsive-image2" src="img-gifs/Asset-2.gif" width="10%" height="10%">
+			<img class="responsive-image1"  src="img-gifs/Asset-2white.gif" width="10%" height="10%">
+				
+			<img class="responsive-image3" src="img-gifs/Asset-2-grey.gif" width="10%" height="10%">
+		    <img class="responsive-image1" src="img-gifs/Asset-2black.gif" width="10%" height="10%">
+			<img class="responsive-image1" src="img-gifs/Asset-2.gif" width="10%" height="10%">
+			<img class="responsive-image1"  src="img-gifs/Asset-2white.gif" width="10%" height="10%">	
+	    	<img class="responsive-image3" src="img-gifs/Asset-2-grey.gif" width="10%" height="10%">
+		    <img class="responsive-image1" src="img-gifs/Asset-2black.gif" width="10%" height="10%">
+			<img class="responsive-image1" src="img-gifs/Asset-2.gif" width="10%" height="10%">
+			<img class="responsive-image2"  src="img-gifs/Asset-2white.gif" width="10%" height="10%">
+		
+			<img class="responsive-image1" src="img-gifs/Asset-2-grey.gif" width="10%" height="10%">
+		    <img class="responsive-image1" src="img-gifs/Asset-2black.gif" width="10%" height="10%">
+			<img class="responsive-image2" src="img-gifs/Asset-2.gif" width="10%" height="10%">
+			<img class="responsive-image1"  src="img-gifs/Asset-2white.gif" width="10%" height="10%">
+				
+			<img class="responsive-image1" src="img-gifs/Asset-2-grey.gif" width="10%" height="10%">
+		    <img class="responsive-image1" src="img-gifs/Asset-2black.gif" width="10%" height="10%">
+			<img class="responsive-image2" src="img-gifs/Asset-2.gif" width="10%" height="10%">
+			<img class="responsive-image1"  src="img-gifs/Asset-2white.gif" width="10%" height="10%">	
+		    <img class="responsive-image3" src="img-gifs/Asset-2-grey.gif" width="10%" height="10%">
+		    <img class="responsive-image1" src="img-gifs/Asset-2black.gif" width="10%" height="10%">
+			<img class="responsive-image2" src="img-gifs/Asset-2.gif" width="10%" height="10%">
+			<img class="responsive-image1"  src="img-gifs/Asset-2white.gif" width="10%" height="10%">
+		    
+		
+			<div  id="logoYellow">
+				
+				
+	 				<img src="images/1.5x/jlg_fix@1.5x.png" width="100"; alt="logo">
+				
+				
+				
+				
+				
+						 
+			</div>  
+		
+		 
+	
+		 	 <video playsinline webkit-playsinline autoplay loop muted width="370" height="350" >
+  					<source src="video/Mograph%20tree_4.mp4" type="video/mp4">
+			 </video> 
+	
+     </div>
+		 <div>
+			<img id="drone" src="images/Asset%201.svg"  style="height: 20%;" alt="drone flying throughout pages">
+		
+			 
+			 
+			 
+		</div>
+	
+	
+			 
+</div>
+
+
+
+	
+	
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+<script type="text/javascript" src="js/respond.js"></script>
+<script src="../components/web-animations-js/web-animations.min.js"></script>	
+
+	
+	
+	<script>var tl = new TimelineMax({repeat:20});
+		
+$(".fade-out").each(function(index, element){
+  tl.to(element, 1, {x:200, opacity:1})
+    .to(element, 1, {x:400, opacity:0, ease:Power2.easeIn}, "+=15")
+})</script>
+	
+	
+
+	
+
+	
+	
+<script>
+	
+	var path = new TimelineMax({ repeat: -1, repeatDelay: 1 });
+path.to("#drone", 10, {
+  bezier: { type: "quadratic",
+    values: [{x:50,y:100},{x:450,y:100},{x:600,y:300}],
+    autoRotate:45
+  },
+  ease: Power1.easeInOut
+},'T1')
+.from("#drone",2.5,{scale:0,repeat:1,yoyo:true,ease:Sine.easeInOut},'T1')
+.to("#drone", 5, {
+  bezier: {type:"quadratic",
+    values: [{x:800,y:300},{x:450,y:400},{x:0,y:0}],
+    autoRotate:-230
+  },
+  ease: Power1.easeInOut
+},'T2')
+.to("#drone",6,{scale:6,repeat:1,yoyo:true,ease:Sine.easeInOut},'T2')
+
+
+
+	
+$(function () { // wait for document ready
+     // init
+     var controller = new ScrollMagic.Controller();
+     // define movement of panels
+     var wipeAnimation = new TimelineMax()
+         .fromTo("div.panel.second", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
+         .fromTo("div.panel.third",    1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
+         .fromTo("div.panel.fourth", 1, {y: "-110%"}, {y: "0%", ease: Linear.easeNone}) // in from top
+         .fromTo("div.panel.fifth", 1, {y: "115%"}, {y: "0%", ease: Linear.easeNone}); // in from bottom
+	     
+         // create scene to pin and link animation
+     new ScrollMagic.Scene({
+         triggerElement: "#pinContainer",
+         triggerHook: "onLeave",
+         duration: "300%"
+     })
+     .setPin("#pinContainer")
+     .setTween(wipeAnimation)
+     .addTo(controller);
+});
+	
+</script>
+	
+
+
+<!--Mobile drop down-->
+ <script>function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}</script>
+
+  
+</body>
+</html>
