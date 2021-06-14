@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-scroll-snap-type: mandatory;
+      scroll-snap-type: mandatory;
+  -ms-scroll-snap-points-y: repeat(100vh);
+      scroll-snap-points-y: repeat(100vh);
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+section {
+  border-bottom: 1px solid white;
+  padding: .5rem;
+  height: 100vh;
+  scroll-snap-align: none;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 15%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: center;
+  
+  width: 100%;
+  left: 0;
+  font-size: calc(.5rem + 3vw);
+	
+  color: rgba(200,0,0,0.8);
+  font-family: "Lato", sans-serif;
+  font-family:monospace;
+}
+
+@media screen and (max-width: 700px) {
+	
+
+	
+}
+
+
+/*swap*/
+
+

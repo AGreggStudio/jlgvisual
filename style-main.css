@@ -1,0 +1,760 @@
+/*--------------------------------------------------------------
+Accessibility
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+General styling
+--------------------------------------------------------------*/
+
+body, html {
+  height: 100%
+ 
+}
+
+
+
+
+main {
+	display: flex;
+	max-width: 50em;
+	margin: 0 auto;
+	background-color: red;
+	
+}
+.topnav {
+  margin-left: 25%;	
+  overflow: hidden;
+  position: absolute;
+  display: inline-block;
+ 
+}
+
+.icon {
+	
+	position: relative;
+	margin-right: 50%;
+	
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+	
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: black;
+  padding: 4px 6px;
+  text-decoration: none;
+  font-size: 17px;
+  display:block;
+  z-index: 100;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  
+  display: inline-block;
+  position:absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+ 
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #c1c1c1;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+
+
+}
+
+.responsive-image   .responsive-imageX {
+	    
+	    max-width: 100%;
+        height: auto;
+	
+}
+
+.responsive-imageX {
+	margin-top: -10%;
+}
+
+.gif {
+	    
+       
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: 5;
+}
+
+.gif2 {
+			
+			       
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 500px;
+  bottom: 0;
+  animation-duration: 10s;
+  animation-iteration-count: 5;
+		}
+
+@keyframes example {
+  0%   {left:-20px; bottom:-40px;}
+  10%  {left:100px; bottom:-40px;}
+  20%  {left:200px; bottom:-40px;}
+  30%  {left:300px; bottom:-40px;}
+  40%  {left:400px; bottom:-40px;}
+  50%  { left:500px; bottom:-40px;}
+  60%  {left:600px; bottom:-40px;}
+  70%  { left:700px; bottom:-40px;}
+  80%  {left:800px; bottom:-40px;}
+  90%  {left:900px; bottom:-40px;}
+ 100%  {left:1000px; bottom:-40px;}
+}
+
+.gif3 {
+			
+			       
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: example3;
+  bottom: 0;
+  animation-duration: 10s;
+  animation-iteration-count: 5;
+		}
+
+@keyframes example3 {
+  0%   {left:00px; bottom:-20px;}
+  10%  {left:170px; bottom:-30px;}
+  20%  {left:120px; bottom:-5px;}
+  30%  {left:160px; bottom:-20px;}
+  40%  {left:130px; bottom:-30px;}
+  50%  { left:50px; bottom:-40px;}
+
+}
+
+.gif4 {
+			
+			       
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: example4;
+  bottom: 0;
+  animation-duration: 10s;
+  animation-iteration-count: 5;
+		}
+
+
+@keyframes example4 {
+  0%   {left:500px; bottom:-20px;}
+  10%  {left:570px; bottom:-30px;}
+  20%  {left:620px; bottom:-5px;}
+  30%  {left:660px; bottom:-20px;}
+  40%  {left:630px; bottom:-30px;}
+  50%  { left:700px; bottom:-40px;}
+
+}
+
+.gif5 {
+			
+			       
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: example5;
+  bottom: 0;
+  animation-duration: 10s;
+  animation-iteration-count: 5;
+		}
+
+
+@keyframes example5 {
+  0%   {left:800px; bottom:-40px;}
+  10%  {left:870px; bottom:-40px;}
+  20%  {left:920px; bottom:-40px;}
+  30%  {left:960px; bottom:-40px;}
+  40%  {left:1030px; bottom:-40px;}
+  50%  { left:1100px; bottom:-40px;}
+
+}
+
+.responsive-image1 {
+	    position:absolute;
+	    margin-top: -25%;
+        max-width: 100%;
+        height: auto;
+		transform: scaleX(-1);
+		
+
+	   
+}
+.responsive-image2 {
+	    
+	    margin-top: -50%;
+        max-width: 100%;
+        height: auto;
+        transform: scaleY(1.5);
+	
+	   
+}
+.responsive-image3 {
+	    margin-top: -50%;
+        max-width: 100%;
+        height: auto;
+	    transform: scaleY(.5);
+		
+	   
+
+	   
+}
+/*--------------------------------------------------------------
+Basic responsive layout for all browsers:
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+CSS Grid layout for modern browsers:
+--------------------------------------------------------------*/
+/* Check for CSS Grid support: */
+
+	
+
+	
+	
+	
+      
+@media screen and (max-width: 680px) {
+
+
+	
+	
+	.splash {
+			display:none;
+		}
+		
+		.super {
+			display: none;
+			
+		}
+		.dropdown {
+			display:none;
+		}
+		
+		#logo {
+			display:none;
+		}
+		
+		.grid  {
+		
+		margin-top: 30%;
+		 
+  }
+	
+
+	   
+
+	
+	
+	.grid  {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin-top: 58%;
+		
+	}
+	#poem {
+		
+		color:black;
+	    position:relative;
+		background-color: white;
+		top:0;
+		left:0;
+	
+		
+	}
+	
+	#growth {
+	 
+        width: 950px;
+        max-width: 100%;
+        height: auto;
+	
+	}
+
+	/*video {
+		top: 5%;
+		width: 100%;
+        height: auto;
+		
+		
+	
+	}*/
+	
+		.fade-out {
+		
+	position: absolute;
+	z-index: 100;
+	top: 0%;
+    right: 90%;
+    font-size: 10px;
+    background-color:  rgba(246,246,246,.2);
+    color: #D6051A;
+    font-family: 'Helvetica', sans-serif;
+ 
+	}	
+	
+	
+			.fade-out1 {
+		
+	position: absolute;
+	z-index: 100;
+	top: 10%;
+    right: 60%;
+    font-size: 10px;
+    background-color:  rgba(246,246,246,.2);
+    color: #D6051A;
+    font-family: 'Helvetica', sans-serif;
+ 
+	}	
+
+	
+}	
+
+
+			
+		
+
+	@media screen and (min-width: 700px) {
+		
+		
+		.splash {
+			display:none;
+		}
+		
+		.super {
+			display: none;
+			
+		}
+		
+		
+		#logo {
+			display:none;
+		}
+		
+		
+		.topnav {
+			margin-left: 40%;
+		}
+		
+		
+		.grid  {
+		
+		margin-top: 30%;
+			margin-left: 20%;
+		width: 60%;
+			height:auto;
+		 
+  }
+		
+
+		
+	#poem {
+		
+		color:black;
+	    position:relative;
+		background-color: white;
+		top:0;
+		left:0;
+	
+		
+	}
+	
+
+	   
+	
+
+	
+	#growth {
+	 
+        width: 950px;
+        max-width: 100%;
+        height: auto;
+	
+	}
+		
+
+		
+		
+	.fade-out {
+		
+	position: absolute;
+	z-index: 100;
+	background-color: red;
+	top: 5%;
+  right: 40%;
+  font-size:20px;
+  background-color:  rgba(246,246,246,.2);
+  color: #D6051A;
+  font-family: 'Helvetica', sans-serif;
+	}	
+		
+		.fade-out1 {
+			
+	position: absolute;
+	z-index: 100;
+	top: 25%;
+  right: 60%;
+  font-size:20px;
+  background-color:  rgba(246,246,246,.2);
+  color: #D6051A;
+  font-family: 'Helvetica', sans-serif;
+			
+		}
+	
+	
+	
+}
+	/* Enable grid for viewports 600px and wider: */
+	@media screen and (min-width: 1330px) {
+
+		/* Disable fallback max-width center aligned rule: */
+			
+.grid {
+			display:none;
+		}	
+		
+.grid img{
+			display:none;
+		}
+
+		
+		#poem {
+		
+		display:none;
+	
+		
+	}
+
+
+.site {
+	display: inline-grid;
+	max-width: 50em;
+	margin: 0 auto;
+	
+}
+		
+	
+		aside
+.super {
+	
+	display: block;
+	max-width: 100vh;
+    height: 90vh;
+	margin-top: 0;
+	background-color: #ffffaa;
+    float:right;
+   
+}
+
+				
+aside {
+			grid-column: 1 span;
+		    margin-top: -50%;
+	        z-index: 100;
+}	
+
+.topnav {
+  margin-left: 56%;	
+  margin-top: 30%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 100;
+ 
+ 
+}
+
+
+.icon {
+	
+	position: absolute;
+	margin-right: 60%;
+}
+		
+.panel fifth {
+	position: absolute;
+			margin-top: 55%;
+		}
+		
+.T1	{
+
+    opacity:0;
+    transition:0s 180s;
+	}	
+		
+.T1:hover {
+  opacity:1;
+  transition:0s;
+	}	
+		
+.T2	{
+
+    opacity:0;
+    transition:0s 180s;
+	}	
+		
+.T2:hover {
+  opacity:1;
+  transition:0s;
+	}
+		
+.T3	{
+
+    opacity:0;
+    transition:0s 180s;
+	}	
+		
+.T3:hover {
+  opacity:1;
+  transition:0s;
+	}
+.T4	{
+
+    opacity:0;
+    transition:0s 180s;
+	}	
+		
+.T4:hover {
+  opacity:1;
+  transition:0s;
+	}
+		
+		
+.M1	{
+
+    opacity:0;
+    transition:0s 180s;
+	}	
+		
+.M1:hover {
+  opacity:1;
+  transition:0s;
+	}
+		
+.M2	{
+
+    opacity:0;
+    transition:0s 180s;
+	}	
+		
+.M2:hover {
+  opacity:1;
+  transition:0s;
+	}	
+.M3	{
+
+    opacity:0;
+    transition:0s 180s;
+	}	
+		
+.M3:hover {
+  opacity:1;
+  transition:0s;
+	}
+		
+.M4	{
+
+    opacity:0;
+    transition:0s 180s;
+	}	
+		
+.M4:hover {
+  opacity:1;
+  transition:0s;
+	}
+		
+		
+.B1	{
+
+    opacity:0;
+    transition:0s 180s;
+	}	
+		
+.B1:hover {
+  opacity:1;
+  transition:0s;
+	}
+		
+.B2	{
+
+    opacity:0;
+    transition:0s 180s;
+	}	
+		
+.B2:hover {
+  opacity:1;
+  transition:0s;
+	}
+		
+.B3	{
+
+    opacity:0;
+    transition:0s 180s;
+	}	
+		
+.B3:hover {
+  opacity:1;
+  transition:0s;
+	}
+		
+.B4	{
+
+    opacity:0;
+    transition:0s 180s;
+	}	
+		
+.B4:hover {
+  opacity:1;
+  transition:0s;
+	}
+		
+		
+		.fullcover{
+
+    opacity:0;
+    transition:0s 180s;
+	}
+	
+		.fullcover:hover {
+  opacity:1;
+  transition:0s;
+	}
+		
+
+			
+	.fade-out {
+		
+	position: sticky;
+	z-index: 100;
+	background-color: red;
+		top: 15%;
+  right: -12%;
+  font-size:20px;
+  background-color:  rgba(246,246,246,.2);
+  color: #D6051A;
+  font-family: 'Helvetica', sans-serif;
+	}	
+		
+		.fade-out1 {
+			
+	position: relative;
+	z-index: 100;
+	top: 45%;
+  right: 25%;
+  font-size:20px;
+  background-color:  rgba(246,246,246,.2);
+  color: #D6051A;
+  font-family: 'Helvetica', sans-serif;
+			
+		}
+		
+/
+	
+		
+#logo {
+	
+  top: 50%;
+  right: 32%;
+  position: absolute;
+  z-index: 100;
+  animation: fadeInAnimation ease 7s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards; 
+	 
+}
+
+ @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+        }
+		
+
+#logoYellow {
+	
+  top: 80%;
+  right: 5%;
+  position: absolute;
+  z-index: 100;
+ 
+}
+
+		/* Four-column layout: Two center columns have total width of 50em: */
+		
+		
+		.splash {
+	
+    display: inline-grid;
+	grid-template-areas: 
+	max-width: 100vh;
+	max-height: 100vh;
+	margin:  auto;
+	
+			
+			
+	
+	
+	
+}
+		
+
+
+		/* Center items by placing them in the two center columns: */
+		
+		
+
+	
+
+
+.splash-content {
+	
+  display: inline-grid;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+
+	
+}
+		.splash-content
+		
+		{
+			grid-column: 2/5;
+		
+			
+		}
+
+		/* Use automatic grid placement + span to let each item span two columns: */
+
+
+	}
+
+
+}
