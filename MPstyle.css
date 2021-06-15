@@ -249,9 +249,9 @@ h1  {
 @media screen and (max-width: 800px) {
 	
 	
-	
+	/*
 .topnav {
-  left: 40%;	
+  left: -15%;	
   top:0%;
   overflow: hidden;
   position: absolute;
@@ -266,7 +266,11 @@ h1  {
 	position: relative;
 	margin-right: 0%;
 	
-}	
+}	*/
+	
+	
+
+	
 .words {
   color: #fff;
   font-size: 0;
@@ -277,6 +281,7 @@ h1  {
 }
 .section {
   font-size: 20px;
+  display: inline-block;
   text-align: center;
   display: inline-block;
   margin-top: 100px;
@@ -286,6 +291,7 @@ h1  {
   z-index: 1000;
 	
 }
+
 
 
 .words span {
@@ -357,7 +363,7 @@ h1  {
 
 @media screen and (max-width: 550px) {
 	
-.topnav {
+/*.topnav {
   left: 40%;	
   top:0%;
   overflow: hidden;
@@ -372,7 +378,22 @@ h1  {
 	position: relative;
 	margin-right: 0%;
 	
-}	
+}	*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 .words {
   color: #fff;
   font-size: 0;
@@ -384,6 +405,7 @@ h1  {
 	
 .section {
   font-size: 12px;
+  display: inline-block;
   text-align: center;
   display: inline-block;
   margin-top: 50px;
@@ -393,6 +415,8 @@ h1  {
 
 	
 }
+	
+	
 
 
 .words span {
