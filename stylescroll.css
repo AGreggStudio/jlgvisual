@@ -32,7 +32,7 @@ h1 {
   left: 0;
   font-size: calc(.5rem + 3vw);
 	
-  color: rgba(200,0);
+  color: green;
   font-family: "Lato", sans-serif;
   font-family:monospace;
 }
