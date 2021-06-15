@@ -7,7 +7,7 @@ Accessibility
 /*--------------------------------------------------------------
 General styling
 --------------------------------------------------------------*/
-
+@import "https://fonts.googleapis.com/css?family=Rubik+Mono+One";
 body, html {
   height: 100%
  
@@ -20,7 +20,7 @@ main {
 	display: flex;
 	max-width: 50em;
 	margin: 0 auto;
-	background-color: red;
+	background-color: white;
 	
 }
 .topnav {
@@ -50,6 +50,7 @@ main {
   padding: 4px 6px;
   text-decoration: none;
   font-size: 17px;
+  font-family: "Lato", sans-serif;
   display:block;
   z-index: 100;
 }
