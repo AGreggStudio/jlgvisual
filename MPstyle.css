@@ -381,7 +381,16 @@ h1  {
   
 }
 	
-	
+.next {
+  background-color: whitesmoke;
+  color: dimgrey;
+  border-radius: 0%;
+  border-width:medium;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}	
 .section {
   font-size: 12px;
   text-align: center;
