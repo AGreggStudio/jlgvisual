@@ -21,6 +21,9 @@ main {
 	max-width: 50em;
 	margin: 0 auto;
 	background-color: red;
+	 color: rgba(200,0,0,0.8);
+  font-family: "Lato", sans-serif;
+  font-family:monospace;
 	
 }
 .topnav {
@@ -39,10 +42,10 @@ main {
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
+/*.topnav #myLinks {
   display: none;
 	
-}
+}*/
 
 /* Style navigation menu links */
 .topnav a {
@@ -50,6 +53,8 @@ main {
   padding: 4px 6px;
   text-decoration: none;
   font-size: 17px;
+  font-family: "Lato", sans-serif;
+	
   display:block;
   z-index: 100;
 }
@@ -357,9 +362,9 @@ CSS Grid layout for modern browsers:
 		}
 		
 		
-		.topnav {
+		/*.topnav {
 			margin-left: 40%;
-		}
+		}*/
 		
 		
 		.grid  {
@@ -459,7 +464,7 @@ CSS Grid layout for modern browsers:
 }
 		
 	
-		aside
+	
 .super {
 	
 	display: block;

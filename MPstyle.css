@@ -135,12 +135,12 @@ a:hover {
 	
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
+/* Hide the links inside the navigation menu (except for logo/home) 
 .topnav #myLinks {
   display: none;
 	
 	
-}
+}*/
 
 /* Style navigation menu links */
 .topnav a {
@@ -385,15 +385,6 @@ h1  {
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 .words {
   color: #fff;
   font-size: 0;
@@ -446,8 +437,7 @@ h1  {
 		width: 100%;
         height: auto;
 		flex-flow: wrap;
-		 
-  		justify-content:center;
+		justify-content:center;
 	    position:absolute;
  
 	}
@@ -457,7 +447,7 @@ h1  {
 		margin-top: -50px;
 	}
 	
-	.flex-item {
+  .flex-item {
   position: relative;
   background: white;
   width: 100%;
