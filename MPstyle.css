@@ -250,7 +250,14 @@ h1  {
 	
 	
 	
-
+.topnav {
+  left: -15%;	
+  top:0%;
+  overflow: hidden;
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
 
 .icon {
 	
@@ -348,7 +355,15 @@ h1  {
 
 @media screen and (max-width: 550px) {
 	
-
+.topnav {
+  left: 40%;	
+  top:0%;
+  overflow: hidden;
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
+	
 
 .icon {
 	
