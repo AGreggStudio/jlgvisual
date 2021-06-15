@@ -38,6 +38,7 @@ main {
 	
 }
 
+
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
@@ -89,6 +90,10 @@ main {
 	margin-top: -10%;
 }
 
+h1{
+	font-family: "Lato", sans-serif;
+	
+}
 .gif {
 	    
        
