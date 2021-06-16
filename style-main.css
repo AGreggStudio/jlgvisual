@@ -503,9 +503,26 @@ aside {
 		
 .panel fifth {
 	position: absolute;
-			margin-top: 55%;
+			margin-top: 45%;
 		}
 		
+		.panel fourth {
+			position: absolute;
+			margin-top: 55%;
+			
+		}
+		
+		.panel third {
+			position: absolute;
+			margin-top: 55%;
+			
+		}
+		
+		.panel second {
+			position: absolute;
+			margin-top: 55%;
+			
+		}
 .T1	{
 
     opacity:0;
