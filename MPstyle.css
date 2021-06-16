@@ -27,7 +27,12 @@ body {
   	
 }
 
-
+	#contactform {
+			
+		width:  100%;
+		height:auto;
+		justify-content:center;
+	}
 
 
  
@@ -340,6 +345,7 @@ h1  {
 		
 		width:  100%;
 		height:auto;
+		justify-content:center;
 	
 	
 	}
