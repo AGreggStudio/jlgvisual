@@ -79,16 +79,15 @@ main {
 
 }
 
-.responsive-image   .responsive-imageX {
+.responsive-image   {
 	    
 	    max-width: 100%;
+	margin-top: -10%;
         height: auto;
 	
 }
 
-.responsive-imageX {
-	margin-top: -10%;
-}
+
 
 h1{
 	font-family: "Lato", sans-serif;
