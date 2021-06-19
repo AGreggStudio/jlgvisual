@@ -343,11 +343,11 @@ $(function () { // wait for document ready
      var controller = new ScrollMagic.Controller();
      // define movement of panels
      var wipeAnimation = new TimelineMax()
-	     .fromTo("div.panel.first.responsive-image.", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) 
-         .fromTo("div.panel.second.responsive-image.", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
-         .fromTo("div.panel.third.responsive-image.",  1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
-         .fromTo("div.panel.fourth.responsvie-image.", 1, {y: "-110%"}, {y: "0%", ease: Linear.easeNone}) // in from top
-         .fromTo("div.panel.fifth.responsive-image.", 1, {y: "115%"}, {y: "0%", ease: Linear.easeNone}); // in from bottom
+	     .fromTo("div.panel.first.responsive-image", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) 
+         .fromTo("div.panel.second.responsive-image", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
+         .fromTo("div.panel.third.responsive-image",  1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
+         .fromTo("div.panel.fourth", 1, {y: "-110%"}, {y: "0%", ease: Linear.easeNone}) // in from top
+         .fromTo("div.panel.fifth", 1, {y: "115%"}, {y: "0%", ease: Linear.easeNone}); // in from bottom
 	     
          // create scene to pin and link animation
      new ScrollMagic.Scene({
