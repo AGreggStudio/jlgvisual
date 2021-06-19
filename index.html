@@ -187,13 +187,7 @@ body, html {
 	
 
      </div>
-     <div class="panel second" style="height: 100%; background:opaque;">
-		   <b class="fade-out1">Even the bold <br>and the beautiful <br>couldn't withstand!</b>
-		
-		  <img  class="responsive-image"  src="images/bottles%20yellow.png" width="100%" height="auto" top="-30%"alt="2 single yellow bottle trees">
-	
-	
-	 </div>
+   
       
      <div class="panel third" style="height: 100%;  background:opaque;" >
 		 
@@ -349,7 +343,7 @@ $(function () { // wait for document ready
      // define movement of panels
      var wipeAnimation = new TimelineMax()
 	     .fromTo("div.panel.first", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) 
-         .fromTo("div.panel.second.", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
+        
          .fromTo("div.panel.third",  1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
          .fromTo("div.panel.fourth", 1, {y: "-110%"}, {y: "0%", ease: Linear.easeNone}) // in from top
          .fromTo("div.panel.fifth", 1, {y: "115%"}, {y: "0%", ease: Linear.easeNone}); // in from bottom
@@ -365,11 +359,7 @@ $(function () { // wait for document ready
 	 .addTo(controller);
 });
 	
-	$('nav a').on('click',function() {
-    var targetSection = $(this).attr('href').substring(1);
-    var targetPos = scene.scrollOffset() + (scene.duration()*(targetSection - 1));
-    controller.scrollTo(targetPos); 
-});
+
 	
 </script>
 
