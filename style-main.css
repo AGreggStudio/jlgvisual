@@ -227,9 +227,6 @@ h1{
 
 	   
 }
-
-
-
 /*--------------------------------------------------------------
 Basic responsive layout for all browsers:
 --------------------------------------------------------------*/
@@ -275,9 +272,8 @@ CSS Grid layout for modern browsers:
 	
 
 	   
-	 .fade-out {
-		display:none;
-	}
+
+	
 	
 	.grid  {
 		display: flex;
@@ -504,24 +500,24 @@ aside {
 	margin-right: 60%;
 }
 		
-.panel fifth {
+.panel fifth{
 	position: absolute;
-			margin-top: 45%;
+	margin-top: 45%;
 		}
 		
-		.panel fourth {
+.panel fourth {
 			position: absolute;
 			margin-top: 55%;
 			
 		}
 		
-		.panel third {
+.panel third {
 			position: absolute;
 			margin-top: 55%;
 			
 		}
 		
-		.panel second {
+.panel second {
 			position: absolute;
 			margin-top: 55%;
 			
