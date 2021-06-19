@@ -187,7 +187,13 @@ body, html {
 	
 
      </div>
-   
+     <div class="panel second" style="height: 100%; background:opaque;">
+		   <b class="fade-out1">Even the bold <br>and the beautiful <br>couldn't withstand!</b>
+		
+		  <img  class="responsive-image"  src="images/bottles%20yellow.png" width="100%" height="auto" top="-30%"alt="2 single yellow bottle trees">
+	
+	
+	 </div>
       
      <div class="panel third" style="height: 100%;  background:opaque;" >
 		 
@@ -342,8 +348,8 @@ $(function () { // wait for document ready
      var controller = new ScrollMagic.Controller();
      // define movement of panels
      var wipeAnimation = new TimelineMax()
-	     .fromTo("div.panel.first", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) 
-        
+	   
+         .fromTo("div.panel.second.", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
          .fromTo("div.panel.third",  1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
          .fromTo("div.panel.fourth", 1, {y: "-110%"}, {y: "0%", ease: Linear.easeNone}) // in from top
          .fromTo("div.panel.fifth", 1, {y: "115%"}, {y: "0%", ease: Linear.easeNone}); // in from bottom
@@ -358,7 +364,53 @@ $(function () { // wait for document ready
      .setTween(wipeAnimation)
 	 .addTo(controller);
 });
+
+	tween.eventCallback("onUpdate", function(e) {
+  console.log(tween.progress());
+});
 	
+	$(function () {
+	// wait for document ready
+	// init
+	var controller = new ScrollMagic.Controller({
+		globalSceneOptions: {
+			triggerHook: 'onLeave',
+			duration: '200%', // this works just fine with duration 0 as well
+			// However with large numbers (>20) of pinned sections display errors can occur so every section should be unpinned once it's covered by the next section.
+			// Normally 100% would work for this, but here 200% is used, as Panel 3 is shown for more than 100% of scrollheight due to the pause.
+		},
+	});
+
+	// get all slides
+	var slides = document.querySelectorAll('section.page');
+
+	// create scene for every slide
+	for (var i = 0; i < slides.length; i++) {
+		new ScrollMagic.Scene({
+			triggerElement: slides[i],
+		})
+			.setPin(slides[i], { pushFollowers: false })
+			.addTo(controller)
+			.update(true);
+	}
+
+	// var i1 = 0;
+	// var i2 = 0;
+
+	new ScrollMagic.Scene().addTo(controller).on('update', function () {
+		var scrollInfo = controller.info('scrollDirection');
+		var currentScrollPosition = $(window).scrollTop();
+		var target = 400;
+
+		if (scrollInfo == 'FORWARD' && currentScrollPosition > target) {
+			$('nav').css('top', '-90px');
+		}
+
+		if (scrollInfo == 'REVERSE' && currentScrollPosition >= target) {
+			$('nav').css('top', '0');
+		}
+	});
+});
 
 	
 </script>
