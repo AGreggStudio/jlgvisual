@@ -295,7 +295,7 @@ body, html {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
- <script src="js/scrollmagic/uncompressed/ScrollMagic.js"></script>
+<script src="js/scrollmagic/uncompressed/ScrollMagic.js"></script>
 <script src="js/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
 	
 
@@ -343,29 +343,30 @@ $(function () { // wait for document ready
      var controller = new ScrollMagic.Controller();
      // define movement of panels
      var wipeAnimation = new TimelineMax()
-         .fromTo("div.panel second", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
-         .fromTo("div.panel third",    1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
-         .fromTo("div.panel fourth", 1, {y: "-110%"}, {y: "0%", ease: Linear.easeNone}) // in from top
-         .fromTo("div.panel fifth", 1, {y: "115%"}, {y: "0%", ease: Linear.easeNone}); // in from bottom
+	     .fromTo("div.panel.first.responsive-image.", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) 
+         .fromTo("div.panel.second.responsive-image.", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
+         .fromTo("div.panel.third.responsive-image.",  1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
+         .fromTo("div.panel.fourth.responsvie-image.", 1, {y: "-110%"}, {y: "0%", ease: Linear.easeNone}) // in from top
+         .fromTo("div.panel.fifth.responsive-image.", 1, {y: "115%"}, {y: "0%", ease: Linear.easeNone}); // in from bottom
 	     
          // create scene to pin and link animation
      new ScrollMagic.Scene({
          triggerElement: "#pinContainer",
          triggerHook: "onLeave",
-         duration: "400%"
+         duration: "300%"
      })
      .setPin("#pinContainer")
      .setTween(wipeAnimation)
-	 .addIndicators()
-     .addTo(controller);
+	 .addTo(controller);
+});
+	
+	$('nav a').on('click',function() {
+    var targetSection = $(this).attr('href').substring(1);
+    var targetPos = scene.scrollOffset() + (scene.duration()*(targetSection - 1));
+    controller.scrollTo(targetPos); 
 });
 	
 </script>
-
-
-
-
-	
 
 
 <!--Mobile drop down-->
