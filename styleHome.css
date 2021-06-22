@@ -97,6 +97,7 @@ h1{
     font-size: 30px;
     text-align:center;
 	color: #D6051A;
+	bottom: 0;
 }
 h2{
     font-size: 20px;
@@ -212,6 +213,7 @@ h2{
   justify-items: center;
   position:absolute;
   margin-top: -30%;
+  margin-left: -10%;
   
   
 	
@@ -237,6 +239,6 @@ h2{
     font-size: 30px;
     text-align:right;
 	color: #D6051A;
-	margin-left: 70%;
+	margin-left: 80%;
 }
 }
