@@ -85,7 +85,7 @@ body{
 }
 .parallax-inner{
     padding-top: 20%;
-    padding-bottom: 0%;
+    padding-bottom: 30%;
 }
 h3{
     font-size: 30px;
@@ -97,7 +97,7 @@ h1{
     font-size: 30px;
     text-align:center;
 	color: #D6051A;
-	margin-top: 80%;
+	bottom: -30%;
 }
 h2{
     font-size: 20px;
@@ -221,7 +221,7 @@ h2{
 .grid img {
   border: 1px solid black;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-  width: 50vh;
+  width: 100vh;
   height: auto;
 }
  
@@ -241,7 +241,4 @@ h2{
 	color: #D6051A;
 	margin-left: 80%;
 }
-	.topnav {
-		margin-top: 10%;
-	}
 }
