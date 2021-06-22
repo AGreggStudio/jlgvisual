@@ -24,7 +24,7 @@ main {
 	
 }
 .topnav {
-  margin-top: 10%;
+  
   margin-left: 25%;	
   overflow: hidden;
   position: absolute;
@@ -63,7 +63,7 @@ main {
   display: inline-block;
   position:absolute;
   right: 0;
-  top: 0;
+  top: 10;
   z-index: 100;
  
 }
