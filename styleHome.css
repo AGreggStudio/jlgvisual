@@ -91,7 +91,7 @@ h3{
     font-size: 30px;
     text-align:right;
 	color: #D6051A;
-	margin-right: 50%;
+	margin-right: 10%;
 }
 h1{
     font-size: 30px;
@@ -208,11 +208,11 @@ h2{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 25px;
-  align-items:stretch;
+  align-items:cover;
   justify-items: center;
   position:absolute;
   margin-top: -30%;
-  margin-left: 0%;
+  
   
 	
   }
