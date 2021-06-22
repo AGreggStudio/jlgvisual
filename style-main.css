@@ -24,6 +24,7 @@ main {
 	
 }
 .topnav {
+  margin-top: 10%;
   margin-left: 25%;	
   overflow: hidden;
   position: absolute;
