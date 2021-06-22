@@ -96,7 +96,7 @@ h3{
 h1{
     font-size: 30px;
     text-align:center;
-	margin-top: -30%;
+	margin-top: -20%;
 	margin-left: 20%;
 	color: #D6051A;
 	position: absolute;
@@ -201,7 +201,7 @@ h2{
   position: absolute;
   width: 90%;
   height: auto;
-  margin-top: -62%;
+  margin-top: -60%;
   margin-left: -110%;
   transform: scaleX(-1);
 }
