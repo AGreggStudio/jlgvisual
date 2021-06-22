@@ -272,14 +272,20 @@ CSS Grid layout for modern browsers:
 	
 
 	   
-
+.icon {
+	
+	position: relative;
+	margin-right: 50%;
+	margin-top: 10%;
+	
+}
 	
 	
 	.grid  {
 		display: flex;
 		justify-content: center;
 		align-content: center;
-		margin-top: 58%;
+		
 		
 	}
 	#poem {
