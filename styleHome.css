@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: 100;
+    font-family: 'Helvetica', sans-serif,bold;
+	font-weight: 700;
+	overflow-x: visible;
+		
+}
+
+body{
+	
+	overflow-x: hidden;
+}
+
+.flex-container {
+  /* We first create a flex layout context */
+	
+  	display: flex;
+	position: absolute;
+	
+	
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content:space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style:none;
+  
+ 
+	
+}
+
+
+.flex-item {
+
+  width: 10%;
+  height: 0%;
+  margin: 0px;
+  
+
+}
+
+
+
+.flex-item img{
+    
+    margin-top: -5%;
+	margin-left: -15%;
+	visibility: visible;
+
+}
+
+.video-container {
+	width: 110%;
+
+}
+.parallax{
+    background: url()no-repeat 100%;
+    background-size:cover;
+    
+	
+	
+
+}
+.parallax-1{
+    background: url(images/bottles%20yellow.png) repeat fixed 100%;
+    background-size: cover;
+    
+}
+.parallax-2{
+    background: url(images/city3.png) repeat fixed 100%;
+    background-size:cover;
+	width: 110%;
+    
+}
+.parallax-inner{
+    padding-top: 20%;
+    padding-bottom: 30%;
+}
+h3{
+    font-size: 30px;
+    text-align:right;
+	color: #D6051A;
+	margin-right: 30%;
+}
+h1{
+    font-size: 30px;
+    text-align:center;
+	color: #D6051A;
+}
+h2{
+    font-size: 20px;
+    text-align:justify;
+	margin-left: 13%;
+	color: black;
+}
+	
+	
+	#drone {
+		position:absolute;
+		z-index: 2;
+		margin-left: 20%;
+		
+		
+	}
+
+	
+	.logo {
+  position:inherit;
+  margin-right: 26%;
+  top:10;
+  min-width: 60%; 
+  min-height: 50%;
+}
+				 
+.man-white {
+  position: absolute;
+  bottom: 40;
+  width: 30%;
+  height: 60%;
+  margin-top: -20%;
+  margin-left: -10%; 
+}					 
+					 
+					 
+.video-container {
+  position:inherit;
+  right: 0;
+  bottom: 0;
+  min-width: 50%; 
+  min-height: 50%;
+		overflow: hidden;
+  					 
+						 
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  bottom: 40;
+  color: #f1f1f1;
+  width: 100%;
+  height: 140%;
+  margin-top: -80%;
+}
+				 
+				 .con {
+  position: absolute;
+  bottom: 40;
+  color: #f1f1f1;
+  width: 20%;
+  height: auto;
+  margin-top: -25%;
+  margin-left: 10%;
+}
+					 
+ .con-grey {
+  position: absolute;
+  bottom: 40;
+  color: #f1f1f1;
+  width: 20%;
+  height: auto;
+  margin-top: -20%;
+  margin-left: 30%;
+}
+					 
+.con-white {
+  position: absolute;
+  bottom: 40;
+  color: #f1f1f1;
+  width: 20%;
+  height: auto;
+  margin-top: -10%;
+  margin-left: 40%;
+}
+	
+.con-black {
+  position: absolute;
+  bottom: 40;
+  width: 20%;
+  height: auto;
+  margin-top: -10%;
+  margin-left: 80%;
+}
+	
+ .bottles {
+  position: absolute;
+  width: 90%;
+  height: auto;
+  margin-top: -62%;
+  margin-left: -110%;
+  transform: scaleX(-1);
+}
+
+@media screen and (max-width: 680px) {
+	
+.grid { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+  align-items:stretch;
+  justify-items: center;
+  position:absolute;
+  margin-top: -30%;
+	
+  }
+.grid img {
+  border: 1px solid black;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%
+}
+ 
+}
+	
+
+@media screen and (min-width: 680px) {
+	
+
+	.grid {
+		display:none;
+	}
+}
