@@ -139,7 +139,7 @@ h2{
   bottom: 0;
   min-width: 50%; 
   min-height: 50%;
-		overflow: hidden;
+  
   					 
 						 
 }
@@ -220,7 +220,7 @@ h2{
   max-width: 150%;
 }
  
-}
+
 	
 
 @media screen and (min-width: 680px) {
