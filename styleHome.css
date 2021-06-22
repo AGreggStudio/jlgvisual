@@ -91,7 +91,7 @@ h3{
     font-size: 30px;
     text-align:right;
 	color: #D6051A;
-	margin-right: 30%;
+	margin-right: 50%;
 }
 h1{
     font-size: 30px;
@@ -212,7 +212,7 @@ h2{
   justify-items: center;
   position:absolute;
   margin-top: -30%;
-  margin-left: -20%;
+  margin-left: 0%;
   
 	
   }
