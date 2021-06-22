@@ -95,7 +95,8 @@ h3{
 }
 h1{
     font-size: 30px;
-    text-align:center;
+    text-align:inherit;
+	margin-left: 20%;
 	color: #D6051A;
 	position: absolute;
 	
@@ -227,6 +228,8 @@ h2{
  
   
 }
+	
+	
  
 
 	
