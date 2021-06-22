@@ -213,7 +213,7 @@ h2{
   align-items:stretch;
   justify-items: center;
   position:absolute;
-  margin-top: -35%;
+  margin-top: -30%;
   margin-left: -15%;
   
   
@@ -223,6 +223,7 @@ h2{
   border: 1px solid black;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   max-width:  100vh;
+  
  
   
 }
@@ -236,13 +237,7 @@ h2{
 	.grid {
 		display:none;
 	}
-	h1{
-    font-size: 30px;
-    text-align:center;
-	color: #D6051A;
-	position: absolute;
-	
-}
+
 	h3{
     font-size: 30px;
     text-align:right;
