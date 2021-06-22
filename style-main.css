@@ -24,7 +24,6 @@ main {
 	
 }
 .topnav {
-  
   margin-left: 25%;	
   overflow: hidden;
   position: absolute;
@@ -63,7 +62,7 @@ main {
   display: inline-block;
   position:absolute;
   right: 0;
-  top: 10;
+  top: 0;
   z-index: 100;
  
 }
@@ -273,13 +272,7 @@ CSS Grid layout for modern browsers:
 	
 
 	   
-.icon {
-	
-	position: relative;
-	margin-right: 50%;
-	margin-top: 10%;
-	
-}
+
 	
 	
 	.grid  {
