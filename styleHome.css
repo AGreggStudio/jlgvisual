@@ -101,7 +101,7 @@ h1{
 h2{
     font-size: 20px;
     text-align:justify;
-	margin-left: 10%;
+	margin-left: 13%;
 	color: black;
 }
 	
@@ -217,7 +217,7 @@ h2{
 .grid img {
   border: 1px solid black;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-  max-width: 350%;
+  max-width: 200%;
 }
  
 
