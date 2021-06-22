@@ -212,13 +212,13 @@ h2{
   justify-items: center;
   position:absolute;
   margin-top: -30%;
-  margin-left: -10%;
+  margin-left: 0%;
 	
   }
 .grid img {
   border: 1px solid black;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-  max-width: 150%;
+  max-width: 100%;
   max-height: auto;
 }
  
