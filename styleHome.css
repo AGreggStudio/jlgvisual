@@ -76,7 +76,7 @@ body{
     background: url(img-gifs/roots-pencil.gif) no-repeat fixed 100%;
     background-size: cover;
     width: 120%;
-	margin-left: -20%;
+	margin-left: -10%;
 	
 }
 .parallax-2{
@@ -124,7 +124,7 @@ h2{
 	
 	.logo {
   position:inherit;
-  margin-right: 26%;
+  margin-right: 16%;
   top:10;
   min-width: 60%; 
   min-height: 50%;
