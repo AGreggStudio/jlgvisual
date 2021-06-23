@@ -123,9 +123,12 @@ a:hover {
 }
 
 h3[
-font-family: "Lato", sans-serif;
-font-family:monospace;
-text-align:left;
+
+    font-family: "Lato", sans-serif;
+    font-family:monospace;
+    font-size: 20px;
+    text-align:justify;
+	color: black;
 
 
 ]
