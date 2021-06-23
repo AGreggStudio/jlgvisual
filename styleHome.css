@@ -61,7 +61,7 @@ body{
 }
 
 .video-container {
-	width: 110%;
+	width: 100vh;
 
 }
 .parallax{
@@ -75,7 +75,7 @@ body{
 .parallax-1{
     background: url(img-gifs/roots-pencil.gif) repeat fixed 100%;
     background-size: cover;
-    width: 130%;
+    width: 100%;
 }
 .parallax-2{
     background: url(img-gifs/roots-gif.gif) repeat fixed 100%;
