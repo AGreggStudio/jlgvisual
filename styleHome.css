@@ -60,10 +60,7 @@ body{
 
 }
 
-.video-container {
-	width: 100vh;
 
-}
 .parallax{
     background: url()no-repeat 100%;
     background-size:cover;
@@ -141,8 +138,8 @@ h2{
   position:inherit;
   right: 0;
   bottom: 0;
-  min-width: 50%; 
-  min-height: 50%;
+  min-width: 100%; 
+  min-height: 100%;
   
   					 
 						 
@@ -250,9 +247,6 @@ h2{
 	color: #D6051A;
 	margin-left: 80%;
 }
-	body{
-		
-		margin-left: 20%;
-	}
+
 	
 }
