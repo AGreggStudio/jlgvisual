@@ -76,6 +76,7 @@ body{
     background: url(img-gifs/roots-pencil.gif) no-repeat fixed 100%;
     background-size: cover;
     width: 110%;
+	margin-left: -20%;
 }
 .parallax-2{
     background: url(img-gifs/roots-gif.gif) no-repeat fixed 100%;
@@ -86,7 +87,7 @@ body{
 .parallax-inner{
     padding-top: 20%;
     padding-bottom: 30%;
-		width: 110%;
+	
 }
 h3{
     font-size: 30px;
