@@ -122,14 +122,14 @@ a:hover {
 	top: 0;
 }
 
-h3[
+h3 {
 
     font-family:'Helvetica', sans-serif;
     font-weight:100;
     font-size: 30px;
     text-align:left;
-    color: black;
-]
+    color:grey;
+}
 
 
 /* navigation*/
