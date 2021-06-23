@@ -123,8 +123,10 @@ a:hover {
 }
 
 h3[
+font-family: "Lato", sans-serif;
+font-family:monospace;
+text-align:left;
 
-align-text:left;
 
 ]
 
