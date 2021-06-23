@@ -73,12 +73,12 @@ body{
 
 }
 .parallax-1{
-    background: url() repeat fixed 100%;
+    background: url(img-gifs/roots-gif.gif) repeat fixed 100%;
     background-size: cover;
     
 }
 .parallax-2{
-    background: url(images/panel%204%20volaire%20yellow%20triangletop.png) repeat fixed 100%;
+    background: url(img-gifs/roots-gif.gif) repeat fixed 100%;
     background-size:cover;
 	width: 110%;
     
@@ -215,6 +215,8 @@ h2{
   align-items:stretch;
   justify-items: center;
   position:absolute;
+  width: 600px;
+height: 300px;
   margin-top: -30%;
   margin-left: 0%;
   
@@ -224,7 +226,7 @@ h2{
 .grid img {
   border: 1px solid black;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-  max-width:  30vh;
+  max-width:  100%;
   
  
   
