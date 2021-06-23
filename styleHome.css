@@ -75,7 +75,8 @@ body{
 .parallax-1{
     background: url(img-gifs/roots-pencil.gif) no-repeat fixed 100%;
     background-size: cover;
-    width: 130%;
+    width: 120%;
+	margin-left: -20%;
 	
 }
 .parallax-2{
