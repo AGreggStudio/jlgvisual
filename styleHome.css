@@ -73,12 +73,12 @@ body{
 
 }
 .parallax-1{
-    background: url(img-gifs/roots-pencil.gif) no-repeat fixed 100vh;
+    background: url(img-gifs/roots-pencil.gif) no-repeat fixed 100%;
     background-size: cover;
     width: 130%;
 }
 .parallax-2{
-    background: url(img-gifs/roots-gif.gif) no-repeat fixed 100vh;
+    background: url(img-gifs/roots-gif.gif) no-repeat fixed 100%;
     background-size:cover;
 	width: 130%;
     
