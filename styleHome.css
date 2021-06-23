@@ -78,13 +78,9 @@ body{
     
 }
 .parallax-2{
-	
-	
-     background-image: url(img-gifs/roots-gif.gif),
-     url(image/bottles yellow.png);
-     background-repeat: repeat;
-}
-    
+    background: url(img-gifs/roots-gif.gif) repeat fixed 100%;
+    background-size:cover;
+	width: 100%;
     
 }
 .parallax-inner{
@@ -219,8 +215,8 @@ h2{
   align-items:stretch;
   justify-items: center;
   position:absolute;
-  width: 600px;
-height: 300px;
+  width: 700px;
+  height: 400px;
   margin-top: -30%;
   margin-left: 0%;
   
