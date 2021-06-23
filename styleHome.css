@@ -80,7 +80,7 @@ body{
 .parallax-2{
     background: url(img-gifs/roots-gif.gif) repeat fixed 100%;
     background-size:cover;
-	width: 110%;
+	width: 130%;
     
 }
 .parallax-inner{
@@ -218,7 +218,7 @@ h2{
   width: 700px;
   height: 400px;
   margin-top: -30%;
-  margin-left: 14%;
+  margin-left: 8%;
   
   
 	
