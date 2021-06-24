@@ -25,7 +25,6 @@ main {
 }
 .topnav {
   margin-left: 25%;	
-  margin-top: 10%;
   overflow: hidden;
   position: absolute;
   display: inline-block;
@@ -341,6 +340,11 @@ CSS Grid layout for modern browsers:
 	
 }	
 
+.topnav {
+	
+	width: 20px;
+	height: auto;
+}
 
 			
 		
