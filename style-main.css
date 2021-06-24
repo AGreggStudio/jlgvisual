@@ -25,7 +25,7 @@ main {
 }
 .topnav {
   margin-left: 25%;	
-  margin-top: 20%;
+  margin-top: 5%;
   overflow: hidden;
   position: absolute;
   display: inline-block;
@@ -36,7 +36,6 @@ main {
 	
 	position: relative;
 	margin-right: 50%;
-	margin-top: 20%;
 	
 }
 
@@ -96,7 +95,7 @@ main {
 .responsive-image   {
 	    
 	    max-width: 100%;
-	margin-top: -10%;
+	    margin-top: -10%;
         height: auto;
 	
 }
@@ -354,11 +353,7 @@ CSS Grid layout for modern browsers:
 	
 }	
 
-.topnav {
-	
-	width: 200px;
-	height: auto;
-}
+
 
 			
 		
