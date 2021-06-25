@@ -2,7 +2,7 @@
 body {
   background: #fff;
   overflow-x: hidden;
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: 'Helvetica', sans-serif,bold;
   padding: 0px;
   text-align: center;
   
@@ -130,7 +130,14 @@ h3 {
     text-align:left;
     color:grey;
 }
-
+h4{
+	font-family:'Helvetica', sans-serif;
+    font-weight:100;
+    font-size: 20px;
+    text-align:justify-all left;
+    color: #D6051A;
+	
+}
 
 /* navigation*/
 .topnav {
