@@ -114,7 +114,7 @@ h2{
 	
 	
 	#drone {
-		position:absolute;
+		position:relative;
 		z-index: 2;
 		margin-left: 90%;
 		

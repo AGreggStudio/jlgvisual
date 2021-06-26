@@ -264,7 +264,10 @@ h1  {
 }
 
 
-
+#biking {
+	width: 100vw;
+	position:absolute;
+}
 
 
 /* Style the active link (or home/logo) */
