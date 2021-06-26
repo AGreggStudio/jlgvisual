@@ -266,7 +266,7 @@ h1  {
 
 #bike {
 	width: 50%;
-	margin-top: 0%;
+	margin-top: 20%;
 }
 
 
@@ -487,6 +487,17 @@ h1  {
 		   
 
 }
+	
+	.flex-item1 {
+		
+  position: relative;
+  background: white;
+  width: 50%;
+  display: flex;
+  flex-flow: wrap;
+  z-index: 1;
+
+	}
 	
 	iframe {
 		margin-top: 200px;
