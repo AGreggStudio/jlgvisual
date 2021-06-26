@@ -35,6 +35,13 @@ body {
 	}
 
 
+	#drone {
+		position:absolute;
+		z-index: 2;
+		margin-left: 20%;
+		
+		
+	}
  
 .words span {
   font-size: 120px;
