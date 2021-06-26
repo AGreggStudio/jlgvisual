@@ -38,7 +38,7 @@ body {
 	#drone {
 		position:absolute;
 		z-index: 2;
-		margin-left: 0%;
+		margin-left: -20%;
 		
 		
 	}
@@ -271,7 +271,7 @@ h1  {
  margin-left: -50vw;
  height: 100px;
  margin-top: 20px;
- left: -50%;
+
 }
 
 /* Style the active link (or home/logo) */
