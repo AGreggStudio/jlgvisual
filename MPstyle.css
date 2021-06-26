@@ -519,7 +519,9 @@ h1  {
 
 }
 	
-	
+	#bike {
+		margin-top: -20%;
+	}	
 		h4{
 	font-family:'Helvetica', sans-serif;
     font-weight:100;
