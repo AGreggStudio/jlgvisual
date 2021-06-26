@@ -38,6 +38,7 @@ body {
 	#drone {
 		position:absolute;
 		z-index: 2;
+		margin-top: 10%;
 		margin-right: 15%;
 		
 		
@@ -263,27 +264,9 @@ h1  {
 	
 }
 
-
-#biking {
-	width: 200vw;
-	margin-left: -100%;
-	margin-top: -90px;
-	z-index: -10;
-
-}
-
-.container{
- background: gray;
- min-height: 400px;
-}
-
- .row-full{
- width: 100vw;
- position: relative;
- margin-left: -50vw;
- height: 100px;
- margin-top: 100px;
- left: 50%;
+#bike {
+	width: 50%;
+	margin-top: -20%;
 }
 
 
@@ -521,7 +504,7 @@ h1  {
 	
 	#bike {
 		width:50%;
-		margin-top: -50%;
+		margin-top: -60%;
 	}	
 	
 	
