@@ -52,7 +52,7 @@
 	
 <!-- Hiding HTML5 Video Controls using CSS Pseudo selectors -->
 
-
+<img id="drone" src="images/Asset%201.svg"  style="height: 20%;" alt="drone flying throughout pages">
 	
 		<!--Mobile drop down-->	
 <div class="topnav" >
@@ -92,7 +92,24 @@
   
 </div>-->
 	
-
+<script>	
+	var path = new TimelineMax({ repeat: -1, repeatDelay: 1 });
+path.to("#drone", 10, {
+  bezier: { type: "quadratic",
+    values: [{x:50,y:100},{x:450,y:100},{x:600,y:300}],
+    autoRotate:45
+  },
+  ease: Power1.easeInOut
+},'T1')
+.from("#drone",2.5,{scale:0,repeat:1,yoyo:true,ease:Sine.easeInOut},'T1')
+.to("#drone", 5, {
+  bezier: {type:"quadratic",
+    values: [{x:800,y:300},{x:450,y:400},{x:0,y:0}],
+    autoRotate:-230
+  },
+  ease: Power1.easeInOut
+},'T2')
+.to("#drone",6,{scale:6,repeat:1,yoyo:true,ease:Sine.easeInOut},'T2')</script>	
 
 	<!--Mobile drop down-->
  <script>function myFunction() {
