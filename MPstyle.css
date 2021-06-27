@@ -265,7 +265,10 @@ h1  {
 }
 
 #bike {
-	width: 50%;
+	
+	float: left;    
+    margin: 0 0 0 0px;
+	
 	margin-top: 10%;
 }
 
@@ -514,7 +517,9 @@ h1  {
 }
 	
 	#bike {
-		width:50%;
+		float: left;    
+    margin: 0 0 0 0px;
+		
 		margin-top: 10%;
 	}	
 	
