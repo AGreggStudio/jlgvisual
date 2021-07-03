@@ -24,7 +24,7 @@ main {
 	
 }
 .topnav {
-  margin-left: 5%;	
+  margin-left: 25%;	
   margin-top: 3%;
   overflow: hidden;
   position: absolute;
@@ -52,8 +52,8 @@ main {
 
 /* Style navigation menu links */
 .topnav a {
-  color: black;
-  padding: 6px 6px;
+  color: red;
+  padding: 10px 6px;
   text-decoration: none;
   font-size: 17px;
   font-family: "Lato", sans-serif;
@@ -79,7 +79,7 @@ main {
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
   background-color: #ddd;
-  color: #c1c1c1;
+  color: green;
 }
 
 
