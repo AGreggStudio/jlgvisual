@@ -24,7 +24,7 @@ main {
 	
 }
 .topnav {
-  margin-left: 25%;	
+  margin-left: 5%;	
   margin-top: 3%;
   overflow: hidden;
   position: absolute;
@@ -35,7 +35,7 @@ main {
 .icon {
 	
 	position: relative;
-	margin-right: 10%;
+	margin-right: 50%;
 	
 }
 
@@ -53,7 +53,7 @@ main {
 /* Style navigation menu links */
 .topnav a {
   color: black;
-  padding: 10px 6px;
+  padding: 6px 6px;
   text-decoration: none;
   font-size: 17px;
   font-family: "Lato", sans-serif;
