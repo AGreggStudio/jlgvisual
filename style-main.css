@@ -67,7 +67,7 @@ main {
 /* Style the hamburger menu */
 .topnav a.icon {
   
-  display: inline-block;
+  display: table-row;
   position:absolute;
   right: 0;
   top: 0;
