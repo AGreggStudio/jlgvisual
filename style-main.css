@@ -35,7 +35,7 @@ main {
 .icon {
 	
 	position: relative;
-	margin-right: 50%;
+	margin-right: 0%;
 	
 }
 
@@ -67,7 +67,7 @@ main {
 /* Style the hamburger menu */
 .topnav a.icon {
   
-  display: table-row;
+  display: inline-block;
   position:absolute;
   right: 0;
   top: 0;
