@@ -57,7 +57,7 @@ main {
   text-decoration: none;
   font-size: 17px;
   font-family: "Lato", sans-serif;
-  display:block;
+  display:inline-block;
   z-index: 100;
 }
 
@@ -90,11 +90,7 @@ main {
 
 
 }
-.logolink {
-	
-	margin-top: -50%;
-	margin-right: 80%;
-}
+
 
 .responsive-image   {
 	    
