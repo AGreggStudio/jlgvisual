@@ -34,7 +34,7 @@ main {
 
 .icon {
 	
-	position: absolute;
+	position: sticky;
 	margin-right: 50%;
 	
 }
