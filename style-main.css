@@ -24,7 +24,7 @@ main {
 	
 }
 .topnav {
-  margin-left: 5%;	
+  margin-left: 25%;	
   margin-top: 3%;
   overflow: hidden;
   position: absolute;
@@ -35,7 +35,7 @@ main {
 .icon {
 	
 	position: relative;
-	margin-right: -50%;
+	margin-right: 0%;
 	
 }
 
