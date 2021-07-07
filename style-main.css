@@ -28,18 +28,21 @@ main {
   margin-top: 3%;
   overflow: hidden;
   position: absolute;
-  display: inline-block;
+  display: block;
  
 }
 
 .icon {
 	
 	position: relative;
-	margin-right: 0%;
+	margin-right: 50%;
 	
 }
 
-
+.fa fa-bars {
+	margin-top: 10%;
+	margin-left: 20%;
+}
 
 
 /* Hide the links inside the navigation menu (except for logo/home) */
