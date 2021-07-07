@@ -28,7 +28,7 @@ main {
   margin-top: 3%;
   overflow: hidden;
   position: absolute;
-  display: block;
+  display: inline-block;
  
 }
 
@@ -39,10 +39,7 @@ main {
 	
 }
 
-.fa fa-bars {
-	margin-top: 10%;
-	margin-left: 20%;
-}
+
 
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -72,8 +69,8 @@ main {
   
   display: inline-block;
   position:absolute;
-  right: 0;
-  top: 0;
+  right: 20;
+  top: 20;
   z-index: 100;
  
 }
