@@ -75,9 +75,9 @@ body{
 
 }
 .parallax-1{
-    background: url(img-gifs/tree-roots2.gif) repeat fixed 20%;
+    background: url(img-gifs/tree-roots2.gif) repeat fixed 100%;
     background-size: cover;
-    width: 130%;
+    width: 120%;
 	margin-left: -20%;
 	
 }
