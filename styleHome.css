@@ -78,14 +78,13 @@ body{
     background: url(img-gifs/tree-roots3.gif) repeat fixed 100%;
     background-size: cover;
     width: 120%;
-	
+	margin-left: -20%;
 	
 }
 .parallax-2{
-    background: url(img-gifs/tree-roots3.gif) repeat-x fixed 100%;
+    background: url(img-gifs/tree-roots3.gif) no-repeat fixed 100%;
     background-size:cover;
-	width: 140%;
-	
+	width: 110%;
     
 }
 .parallax-inner{
@@ -240,14 +239,7 @@ h2{
   
 }
 	
-	.parallax-2 {
-		  display: grid;
-  
-  
-  align-items:stretch;
-  justify-items: center;
-  position:absolute;
-	}	
+	
  
 
 	
