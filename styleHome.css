@@ -242,14 +242,12 @@ h2{
 }
 	
 	h1 {margin-left: 20%;
-		background-color: purple;
 		
 		
 	}
 	h2 {
 		
 		margin-left: 5%;
-		background-color: yellow;
 	}
 
 	
@@ -257,7 +255,6 @@ h2{
   
     background-size:auto;
     
-		background-color: aqua;
 	
 }
 	
@@ -279,6 +276,5 @@ h2{
     text-align:right;
 	color: #D6051A;
 	margin-left: 80%;
-		background-color: coral;
 }
 }
