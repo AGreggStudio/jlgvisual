@@ -83,9 +83,8 @@ body{
 }
 .parallax-2{
     background: url(img-gifs/double-tree-roots..gif) no-repeat fixed 100%;
-	background-size:auto;
-	width: 140%;
-	margin-top: -20%;
+	background-size:cover;
+	width: 110%;
     
 }
 .parallax-inner{
