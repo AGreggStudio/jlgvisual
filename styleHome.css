@@ -217,7 +217,7 @@ h2{
   transform: scaleX(-1);
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 670px) {
 	
 .grid { 
   display: grid;
