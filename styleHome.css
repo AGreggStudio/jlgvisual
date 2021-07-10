@@ -105,13 +105,13 @@ h1{
 	margin-left: 30%;
 	color: #D6051A;
 	position: absolute;
-	background: rgba(230, 225, 226, 0.1);
+	background: rgba(230, 225, 226, 0.3);
 	
 }
 h2{
     font-size: 20px;
     text-align:justify;
-	margin: 0;
+	margin: 2;
 	color: black;
 }
 	
