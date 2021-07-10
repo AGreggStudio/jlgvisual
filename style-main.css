@@ -34,8 +34,8 @@ main {
 
 .icon {
 	
-	position: relative;
-	margin-right: 50%;
+	position: absolute;
+	
 	margin-left: 10%;
 	margin-top: 10%;
 	
