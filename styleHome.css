@@ -76,7 +76,7 @@ body{
 }
 .parallax-1{
     background: url(img-gifs/tree-roots3.gif) repeat fixed 100%;
-    background-size:contain;
+    background-size:cover;
     width: 120%;
 	margin-left: -20%;
 	
@@ -254,6 +254,11 @@ h2{
     
 	
 }
+	
+	.parallax-2{
+    background: url(img-gifs/double-tree-roots..gif) no-repeat fixed 100%;
+	background-size:auto;
+
 	
 
 @media screen and (min-width: 680px) {
