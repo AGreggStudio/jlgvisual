@@ -226,7 +226,7 @@ h1  {
   /* Then we define how is distributed the remaining space */
   justify-content:space-evenly;
   padding: 0;
-  margin: 0;
+  
   list-style:none;
   background-color: white;
   margin-top: 35px;
@@ -350,7 +350,7 @@ h1  {
 	
 	.flex-container {
 		background-color: white;
-		margin-top: -100%;
+		margin-top: -90%;
 		width: 100%;
         height: auto;
 		flex-flow: wrap;
@@ -465,7 +465,7 @@ h1  {
 	
 	.flex-container {
 		background-color: white;
-		margin-top: -30%;
+		margin-top: -20%;
 		width: 100%;
         height: auto;
 		flex-flow: wrap;
