@@ -23,7 +23,7 @@ main {
 	background-color: white;
 	
 }
-.topnav {
+/*.topnav {
   margin-left: 25%;	
   margin-top: 3%;
   overflow: hidden;
@@ -44,7 +44,7 @@ main {
 
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
+/*.topnav #myLinks {
   display: none;
 	
 }
@@ -52,7 +52,7 @@ main {
 
 
 /* Style navigation menu links */
-.topnav a {
+/*.topnav a {
   color: black;
   padding: 10px 6px;
   text-decoration: none;
@@ -66,7 +66,7 @@ main {
 
 
 /* Style the hamburger menu */
-.topnav a.icon {
+/*.topnav a.icon {
   
   display: inline-block;
   position:absolute;
@@ -78,18 +78,70 @@ main {
 
 
 /* Add a grey background color on mouse-over */
-.topnav a:hover {
+/*.topnav a:hover {
   background-color: #ddd;
   color: #c1c1c1;
 }
 
 
-
+*/
 
 /* Style the active link (or home/logo) */
 .active {
 
 
+}
+
+.topnav {
+  left: 0%;	
+  top:0%;
+  overflow: hidden;
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
+
+.icon {
+	
+	position: relative;
+	margin-right: 0%;
+	
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+	
+	
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: black;
+  font-family: "Lato", sans-serif;
+  padding: 10px 6px;
+  text-decoration:none;
+  font-size: 17px;
+  display:block;
+  text-align: end;
+  z-index: 100;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  
+  display: inline-block;
+  position:absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+ 
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #c1c1c1;
 }
 
 
