@@ -75,15 +75,15 @@ body{
 
 }
 .parallax-1{
-    background: url(img-gifs/tree-roots3.gif) no-repeat fixed 100%;
-    background-size:auto;
-    width: 150%;
-	margin-left: -200%;
+    background: url(img-gifs/tree-roots3.gif) repeat fixed 100%;
+    background-size:cover;
+    width: 120%;
+	margin-left: -20%;
 	
 }
 .parallax-2{
     background: url(img-gifs/double-tree-roots..gif) no-repeat fixed 100%;
-	background-size:cover;
+	background-size:auto;
 	width: 110%;
     
 }
@@ -254,7 +254,6 @@ h2{
 	.parallax-1{
     background: url(img-gifs/tree-roots3.gif) no-repeat fixed 100%;
     background-size:auto;
-		margin-top: -30%;
     
 	
 }
