@@ -76,13 +76,13 @@ body{
 }
 .parallax-1{
     background: url(img-gifs/tree-roots3.gif) repeat fixed 100%;
-    background-size:cover;
+    background-size:contain;
     width: 120%;
 	margin-left: -20%;
 	
 }
 .parallax-2{
-    background: url(img-gifs/double-tree-roots..gif) no-repeat fixed 100% opacity: .5;
+    background: url(img-gifs/double-tree-roots..gif) no-repeat fixed 100%;
 	background-size:cover;
 	width: 110%;
     
