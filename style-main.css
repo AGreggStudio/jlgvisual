@@ -101,7 +101,9 @@ main {
 	
 }
 
-
+.super {
+	margin-top: 10px;
+}
 
 h1{
 	font-family: "Lato", sans-serif;
