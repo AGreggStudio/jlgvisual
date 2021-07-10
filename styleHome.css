@@ -102,16 +102,17 @@ h1{
     font-size: 30px;
     text-align:center;
 	margin-top: -20%;
-	margin-left: 12%;
+	margin-left: 30%;
 	color: #D6051A;
 	position: absolute;
 	background-color: whitesmoke;
+	opacity: .3;
 	
 }
 h2{
     font-size: 20px;
     text-align:justify;
-	margin-left: 0%;
+	margin: 3,3,3,3;
 	color: black;
 }
 	
