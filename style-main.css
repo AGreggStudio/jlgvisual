@@ -547,7 +547,7 @@ aside {
   transition:0s;
 	}	
 		
-.T2	{
+		.T2	{
 
     opacity:0;
     transition:0s 180s;
@@ -556,7 +556,8 @@ aside {
 .T2:hover {
   opacity:1;
   transition:0s;
-	}
+	}	
+		
 		
 .T3	{
 
@@ -567,7 +568,10 @@ aside {
 .T3:hover {
   opacity:1;
   transition:0s;
-	}
+	}	
+
+		
+
 .T4	{
 
     opacity:0;

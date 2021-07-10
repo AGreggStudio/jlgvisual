@@ -90,7 +90,6 @@ body{
 .parallax-inner{
     padding-top: 20%;
     padding-bottom: 30%;
-	background: rgba(230, 225, 226, 0.3);
 	
 }
 h3{
@@ -106,7 +105,7 @@ h1{
 	margin-left: 30%;
 	color: #D6051A;
 	position: absolute;
-	
+	background: cover rgba(230, 225, 226, 0.3);
 	
 }
 h2{
