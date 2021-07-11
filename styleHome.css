@@ -90,7 +90,9 @@ body{
     
 }
 .parallax-inner{
-    
+    padding-top: 20%;
+    padding-bottom: 30%;
+	padding-left: 10%;
 	 background-color: orangered;
 }
 h3{
@@ -216,7 +218,7 @@ h2{
   transform: scaleX(-1);
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 370px) {
 	
 
 	
