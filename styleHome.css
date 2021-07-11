@@ -65,9 +65,9 @@ body{
 
 }
 .parallax{
-    background: url(images/city3.png)no-repeat 100%;
+    background: url()no-repeat 100%;
     background-size:cover;
-	
+	background-color: black;
 	
 	
 	
