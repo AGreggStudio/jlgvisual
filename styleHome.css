@@ -234,7 +234,7 @@ h2{
 	.parallax-1{
   
     background-size:auto;
-		
+	background-color: black;	
     
 	
 }
@@ -242,7 +242,7 @@ h2{
 	.parallax-2{
 
 	background-size:auto;
-
+background-color: darkmagenta;
 	
 
 @media screen and (min-width: 680px) {
@@ -258,6 +258,16 @@ h2{
 	color: #D6051A;
 	margin-left: 80%;
 }
+	.parallax-1{
+  
+    background-color:aqua;
+		
+    
 	
+}
+	
+	.parallax-2{
+
+	background-color:brown;	
 	
 }
