@@ -221,13 +221,14 @@ h2{
 	
 
 	
-	h1 {margin-left: -20%;
-		
+	h1 {margin-left: 0%;
+		color: aqua;
 		
 	}
 	h2 {
 		
-		margin-left: 15%;
+		margin-left: 5%;
+		color: orangered;
 	}
 
 	
