@@ -92,7 +92,7 @@ body{
 .parallax-inner{
     padding-top: 20%;
     padding-bottom: 30%;
-	
+	 background-color: orangered;
 }
 h3{
     font-size: 30px;
