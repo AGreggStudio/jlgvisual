@@ -44,7 +44,7 @@ main {
 
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-/*.topnav #myLinks {
+.topnav #myLinks {
   display: none;
 	
 }
@@ -87,10 +87,9 @@ main {
 
 
 /* Style the active link (or home/logo) */
-.logo {
-width: 20%;
-	height: 65%;
-margin-top: 20%;
+.active {
+
+
 }
 
 
@@ -103,9 +102,7 @@ margin-top: 20%;
 }
 
 .super {
-	margin-top: 30%;
-	width: 50%;
-	height: 10%;
+	margin-top: 10px;
 }
 
 h1{
@@ -356,10 +353,6 @@ CSS Grid layout for modern browsers:
  
 	}	
 
-	
-	h1 {
-		color: aqua;
-	}
 	
 }	
 
