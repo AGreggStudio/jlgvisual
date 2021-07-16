@@ -130,6 +130,16 @@ a:hover {
 	top: 0;
 }
 
+
+h2 {
+
+    font-family:'Helvetica', sans-serif;
+    font-weight:100;
+    font-size: 20px;
+    text-align:left;
+    color:grey;
+}
+
 h3 {
 
     font-family:'Helvetica', sans-serif;
@@ -231,8 +241,7 @@ h1  {
   list-style:none;
   background-color: white;
   margin-top: 35px;
-  font-family:'Helvetica', sans-serif;
- color: chartreuse;
+	
 	
 }
 
