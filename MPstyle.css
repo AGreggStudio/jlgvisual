@@ -130,14 +130,8 @@ a:hover {
 	top: 0;
 }
 
-
-h2 {
-
-    font-family:'Helvetica', sans-serif;
-    font-weight:100;
-    font-size: 20px;
-    text-align:left;
-    color:grey;
+h1 {
+	 font-family:'Helvetica', sans-serif;
 }
 
 h3 {
@@ -213,7 +207,6 @@ h4{
   color: #c1c1c1;
 }
 h1  {
-	
 	position:static;
 	margin-top: 0%;
 	z-index: 100;
@@ -241,7 +234,6 @@ h1  {
   list-style:none;
   background-color: white;
   margin-top: 35px;
-	
 	
 }
 
