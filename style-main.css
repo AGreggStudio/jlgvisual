@@ -496,7 +496,7 @@ CSS Grid layout for modern browsers:
 				
 aside {
 			grid-column: 1 span;
-		    margin-top: -45%;
+		    margin-top: -50%;
 	        z-index: 100;
 }	
 
@@ -759,7 +759,6 @@ aside {
 	max-width: 100vh;
 	max-height: 100vh;
 	margin-left:  8%;
-	margin-top: 5%;
 			
 	
 			
