@@ -486,7 +486,7 @@ CSS Grid layout for modern browsers:
 	
 	display: block;
 	max-width: 100vh;
-    height: 80vh;
+    height: 0vh;
 	margin-top: 20;
 	background-color: #ffffaa;
     float:right;
@@ -496,7 +496,7 @@ CSS Grid layout for modern browsers:
 				
 aside {
 			grid-column: 1 span;
-		    margin-top: -40%;
+		    margin-top: -45%;
 	        z-index: 100;
 }	
 
