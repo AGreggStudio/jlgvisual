@@ -480,15 +480,13 @@ CSS Grid layout for modern browsers:
 	
 }
 		
-.page2 (
-		
-		margin-top: 0%;)	
+	
 		
 .super {
 	
 	display: block;
 	max-width: 100vh;
-    height: 0vh;
+    height: 90vh;
 	margin-top: 20;
 	background-color: #ffffaa;
     float:right;
@@ -501,7 +499,6 @@ aside {
 		    margin-top: -50%;
 	        z-index: 100;
 }	
-		
 
 .topnav {
   margin-left: 56%;	
