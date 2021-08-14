@@ -260,7 +260,10 @@ h1  {
 
 }
 
-
+.flex-itemWH {
+      background: white;
+  margin-top: 10px;
+}
 
 .flex-item img{
     
