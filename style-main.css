@@ -29,6 +29,7 @@ main {
   overflow: hidden;
   position: absolute;
   display: inline-block;
+    background-color: crimson;
  
 }
 
@@ -37,6 +38,7 @@ main {
 	position: absolute;
 	margin-left: 2%;
 	margin-top: 2%;
+    background-color: aqua;
 	
 }
 
