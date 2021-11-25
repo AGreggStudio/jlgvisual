@@ -37,8 +37,61 @@
     <i class="fa fa-bars"><img src="flipbook/img/hamburg.svg" width="80" padding-left="20px"></i>
   </a>		
 
-<marquee behavior="scroll-left" direction="up">A Personal Repository</marquee>            
-            
+<marquee behavior="scroll" direction="up">A Personal Repository</marquee>            
+ <style>
+.scroll-up {
+ height: 210px;	
+ overflow: hidden;
+ position: relative;
+ color: whitesmoke;
+ text-shadow: 2px 2px #faf4f4;
+ 
+ 
+ font-size: 150px;
+ 
+}
+.scroll-up p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateY(100%);
+ -webkit-transform:translateY(100%);	
+ transform:translateY(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-up 5s linear infinite;
+ -webkit-animation: scroll-up 5s linear infinite;
+ animation: scroll-up 5s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-up {
+ 0%   { -moz-transform: translateY(100%); }
+ 100% { -moz-transform: translateY(-100%); }
+}
+@-webkit-keyframes scroll-up {
+ 0%   { -webkit-transform: translateY(100%); }
+ 100% { -webkit-transform: translateY(-100%); }
+}
+@keyframes scroll-up {
+ 0%   { 
+ -moz-transform: translateY(100%); /* Browser bug fix */
+ -webkit-transform: translateY(100%); /* Browser bug fix */
+ transform: translateY(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateY(-100%); /* Browser bug fix */
+ -webkit-transform: translateY(-100%); /* Browser bug fix */
+ transform: translateY(-100%); 
+ }
+}
+</style>
+
+<div class="scroll-up">
+<p>A Personal Repository </p>
+</div>           
 	
 <style>
 .scroll-left {
@@ -47,7 +100,7 @@
  margin-right: -5%;   
  height: 210px;
  
- font-size: 180px;
+ font-size: 150px;
 
  overflow: hidden;
  position: relative;
