@@ -50,7 +50,10 @@ body{
 
 }
 
-
+.logolink {
+    background: rgba(255,255,255,0); 
+    z-index:1000;     
+    }
 
 .flex-item img{
     
@@ -67,11 +70,6 @@ body{
 .parallax{
     background: url()no-repeat 100%;
     background-size:cover;
-	
-	
-	
-	
-    
 	
 	
 
