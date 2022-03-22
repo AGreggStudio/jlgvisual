@@ -1,0 +1,56 @@
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+
+
+ body {
+
+ 
+
+ background-image: url("images/treeresponseMain.png");
+
+   
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:cover;
+    background-blend-mode: lighten;
+   
+    position:absolute;
+    width: 100vh;
+    height: 100vy;
+    display: flex;
+    align-items: bottom;
+    justify-content: bottom;
+    opacity: 0.5;
+   
+
+#img1{
+  top
+  transition: 1s
+}
+.enlarge{
+  width:600px;
+  height:600px;
+}
+
+footer {
+  position: relative;
+  font-size: 50px;
+ margin-top: 3000px;
+ margin-left: -600px;
+
+
+ 
+
+
+}
