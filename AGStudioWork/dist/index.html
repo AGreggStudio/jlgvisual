@@ -8,10 +8,7 @@
   
 .flex-container {
   
-  
-
-  
-  display: flex;
+   display: flex;
   flex-wrap: wrap;
   background-color: whitesmoke;
   background-image: url("images/treeresponseMain3.png");
@@ -19,15 +16,21 @@
   background-repeat: no-repeat;
     margin-top: 5%;
 
-
-  @media screen and (max-width: 400px) {
- 
-    
-  background-color: white;
-  background-image: none;
   
-} 
 }
+
+@media screen and (min-width: 400px) {
+   .flex-container {
+    background-image: url("images/treeresponseMain3.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;}
+}
+
+@media screen and (max-width: 400px) {
+   .flex-container {
+   background-image: none;}
+}
+
 
 .flex-container > div {
   margin: 10px;
