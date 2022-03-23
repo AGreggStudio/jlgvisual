@@ -14,6 +14,7 @@
     width:1400px;
     height:auto;
     margin:0;
+  
 }
 
 
@@ -21,7 +22,7 @@
     
   display:flex;
   flex-wrap:wrap;
-   background-image: url("images/treeresponseMain3.png");
+  background-image: url("images/treeresponseMain3.png");
    background-size: 100%;
    background-repeat: no-repeat;
    margin-top: 5%;
@@ -43,7 +44,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: 5px;
- background-color: white;
+  background-color: white;
  
   opacity: 1.0; transition:opacity 1s;
   margin-top: 5%;
@@ -51,16 +52,17 @@
 }
 
 @media screen and (max-width: 480px) {
-  .flex-container, .flex-container2, .slowmo-img,  .flier,.flier1, .flier2{
+  .flex-container, .flex-container2,.slowmo-img.flier,.flier1, .flier2{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 10px;
     background-image: none;
     max-width: 27%;
     align-content: space-around;
     overflow-x: hidden;
     overflow-y: visible;
-  
-
+   background-image: radial-gradient(circle at center, rgb(175, 155, 155) 0, rgb(76, 76, 78), rgb(245, 248, 245) 90%)
+    position:fixed;
   }
   
  
