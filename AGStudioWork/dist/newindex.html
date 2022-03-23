@@ -13,7 +13,8 @@
     box-sizing: border-box;
     width:1400px;
     height:auto;
-    margin:0;
+   
+    
 }
 
 
@@ -25,14 +26,13 @@
    background-size: 100%;
    background-repeat: no-repeat;
    margin-top: 5%;
-  opacity: 1.0; transition:opacity 1s;
+   opacity: 1.0; transition:opacity 1s;
   
 }
 
 .flex-container2 {
   display: flex;
   flex-wrap: wrap;
- 
   height: 100px;
   background-position-y: 100%;
   margin-top: 1%;  
@@ -43,27 +43,42 @@
   display: flex;
   flex-wrap: wrap;
   margin: 5px;
- background-color: white;
- 
+  background-color: white;
   opacity: 1.0; transition:opacity 1s;
   margin-top: 5%;
   
 }
 
-@media screen and (max-width: 480px) {
-  .flex-container, .flex-container2, .slowmo-img,  .flier,.flier1, .flier2{
-    display: flex;
-    flex-wrap: wrap;
-    background-image: none;
-    max-width: 27%;
-  
 
-  }
-  
- 
+
+
+@media screen and (max-width: 400px) {
+h1,h2 {
+  display:none;
+}
+body, .flex-container, .flex-container2 {
+  max-width: 400px;
+  position: relative;
+  overflow-y: visible;
+  overflow-x: hidden;
 
 
 }
+
+  
+}
+
+@media screen and (min-width: 400px) {
+ h3,h4 {
+  display:none;
+}
+  
+}
+
+ 
+
+
+
 #slide, #slide1, #slide2, #slide3, #slide4, #slide5, #slide6, #slide7, #slide8, #slide9, #slide10, #slide11, #slide12, #slide13, #slide14, #slide15, #slide15, #slide16, #slide17, #slide18, #slide19, #slide20 {
     
   
@@ -170,10 +185,12 @@
 
 
 
+
+
 h1 {
   flex-wrap: wrap;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 80px; 
+  font-size: 30px; 
   text-align: left;
   
 }
@@ -182,7 +199,20 @@ h2 {
     font-size: 15px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	}
-	
+
+  h3 {
+  flex-wrap: wrap;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px; 
+  text-align: left;
+  
+}
+h4 {
+    text-align: left;
+    font-size: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+
 	
 /* Slow-motion Zoom Container */
 .slowmo-img img {
@@ -195,9 +225,9 @@ h2 {
 }
 /* The Transformation */
 .slowmo-img:hover img {
-  filter: brightness(60%);
+  filter: brightness(100%);
   transform: scale(1.35);
-  opacity: 1;
+  opacity: 1.0;
 }
 
 #zooming {
@@ -701,10 +731,18 @@ flex-wrap: wrap;
  
 </head>
 
-<body> <h1>ARTWORK FROM ANDREW GREGG STUDIO</h1>
+<body>
+
+  
+    
+    <h1>ARTWORK FROM ANDREW GREGG STUDIO</h1>
+    <br><br>
+    <h2>Click 3x to discover artworks</h2> 
+  
+  <h3>ARTWORK FROM ANDREW GREGG STUDIO</h3>
 <br><br>
 
-<h2>Click 3X to discover artwork</h2>
+<h4>Click 3X to discover artwork</h4> 
 <div class="flex-container">
 
 
@@ -773,10 +811,10 @@ flex-wrap: wrap;
 
 
 
-    <br> <br> <br>  
+ 
 
     <div class="flex-container2" >
-"
+
       <div class="slowmo-img">
          
         <img src="images/feb12col1.jpg" id="zooming"  alt="zoom">
