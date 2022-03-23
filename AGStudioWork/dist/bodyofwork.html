@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width:1400px;
+    width: auto;
     height:auto;
     margin:0;
   
@@ -54,29 +54,28 @@
 
 @media screen and (max-width: 480px) {
   .flex-container, .flex-container2,.slowmo-img.flier,.flier1, .flier2{
-    display: flex;
-    flex-wrap: wrap;
+    margin-top: 200px;
     margin-left: 10px;
-    background-image: none;
-    
-    max-width: 27%;
+    background-image: url("images/treeresponseMain3.png");
+
+       background-size: 100%;
+    background-position-y: 200px;
     align-content: space-around;
-    overflow-x: hidden;
-    overflow-y: visible;
+    padding-top: 20%;
    background-image: radial-gradient(circle at center, rgb(175, 155, 155) 0, rgb(76, 76, 78), rgb(245, 248, 245) 90%)
-    position:fixed;
+    
   }
 }
 
 @media screen and  (min-width: 480px) and (max-width: 880px){
-  .flex-container, .flex-container2,.slowmo-img.flier,.flier1, .flier2{
-    display: flex;
-    flex-wrap: wrap;
+ .flex-container, .flex-container2,.slowmo-img.flier,.flier1, .flier2{
+    
     margin-left: 10px;
-    background-image: none;
-  
-    max-width: 45%;
-   
+    
+    background-image: url("images/treeresponseMain3.png");
+    background-size: 100%;
+   background-position-y: 200px;
+
    
   }
 }
@@ -207,23 +206,23 @@ h3 {
   
   transform-origin: 10% 15%;
   transition: transform 5s, filter 3s ease-in-out;
-  filter: brightness(50%);
+  filter: brightness(30%);
   opacity: .1;
   
 }
 /* The Transformation */
 .slowmo-img:hover img {
-  filter: brightness(60%);
+  filter: brightness(100%);
   transform: scale(1.35);
   opacity: 1;
 }
 
 #zooming {
-display: flex;
-flex-wrap: wrap;
-        padding: 20px;
+
+        margin: 15%;
         width: 190px;
         height: 140px;
+        background-color: rgba(76, 175, 80, 0.3)
 
        
        
