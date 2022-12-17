@@ -63,7 +63,7 @@ li {
  overflow: hidden;
  position: relative;
  color: #fcfcfa;
- text-shadow: 2px 2px #696966;
+ text-shadow: 2px 2px #f1f1f0;
  font-size: 100px;
  z-index: -1000;
  
@@ -116,16 +116,16 @@ li {
 <style>
 .scroll-left {
     
- margin-top: -15%;
+ margin-top: -10%;
  margin-right: -5%;   
- height: 110px;
+ height: 210px;
  
- font-size: 100px;
+ font-size: 120px;
 overflow: hidden;
  position: relative;
  
  color: #fcfcfa;
- text-shadow: 2px 2px #4e4e4c;
+ text-shadow: 2px 2px #f1f1f0;
 
 }
 .scroll-left p {
@@ -133,7 +133,7 @@ overflow: hidden;
  width: 100%;
  height: 100%;
  margin: 0;
- line-height: 100px;
+ line-height: 150px;
  text-align: center;
  /* Starting position */
  transform:translateX(100%);
@@ -162,7 +162,155 @@ overflow: hidden;
                 <br>
             </div>
         </section>
- 
+ <div class="page2" >
+	
+
+	
+	     <section class="splash" >
+			
+				<img class="T1" src="images/top1pos.png"  alt="Tree Drawing.">
+				<img class="T2" src="images/top2pos.png" alt="Tree Drawing."> 
+				<img class="T3"src="images/top3pos.png" alt="Tree Drawing."> 
+				<img class="T4"src="images/top4pos.png" alt="Tree Drawing."> 
+				<img class="M1" src="images/middle1pos.png" alt="Tree Drawing.">  
+				<img class="M2" src="images/middle2pos.png" alt="Tree Drawing."> 
+				<img class="M3" src="images/middle3pos.png" alt="Tree Drawing."> 
+				<img class="M4" src="images/middle4pos.png" alt="Tree Drawing.">
+				<img class="B1" src="images/Bottom1pos.png" alt="Tree Drawing."> 
+				<img class="B2" src="images/bottom2pos.png" alt="Tree Drawing."> 
+				<img class="B3" src="images/bottom3pos.png" alt="Tree Drawing."> 
+				<img class="B4" src="images/bottom4pos.png" alt="Tree Drawing.">
+
+	 
+            	<div class="splash-content"></div>		
+        </section>  
+
+	<section>
+			<aside>
+				
+
+		  <ul class="super">
+			  
+			  		
+		     <img class="logo" src="images/rectanglepos.png" height="700px" alt="yellow rectangle">
+			 
+			  
+	
+			   	<img class="man-white" src="img-gifs/white-man.gif">
+			  
+			
+		
+		  </ul>  
+				
+				
+			</aside>
+		
+			
+<style>
+.grid { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+  align-items:stretch;
+  justify-items: center;
+  position:absolute;
+    width: 700px;
+   height: 400px;
+  margin-top: -20%;
+  margin-left: 18%;
+
+	
+  }
+.grid img {
+  border: 1px solid black;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+}
+</style>
+	
+					<br><br><br><br><br>
+			<section class="grid">
+					<img class="T1" src="images/top1pos.png"  alt="Tree Drawing.">
+					<img class="T2" src="images/top2pos.png" alt="Tree Drawing."> 
+					<img class="T3"src="images/top3pos.png" alt="Tree Drawing."> 
+					<img class="T4"src="images/top4pos.png" alt="Tree Drawing."> 
+					<img class="M1" src="images/middle1pos.png" alt="Tree Drawing.">  
+					<img class="M2" src="images/middle2pos.png" alt="Tree Drawing."> 
+					<img class="M3" src="images/middle3pos.png" alt="Tree Drawing."> 
+					<img class="M4" src="images/middle4pos.png" alt="Tree Drawing.">
+					<img class="B1" src="images/Bottom1pos.png" alt="Tree Drawing."> 
+					<img class="B2" src="images/bottom2pos.png" alt="Tree Drawing."> 
+					<img class="B3" src="images/bottom3pos.png" alt="Tree Drawing."> 
+					<img class="B4" src="images/bottom4pos.png" alt="Tree Drawing.">
+			</section>	
+	
+
+			
+		</section>
+		
+	
+    <section class="parallax-1">
+        <div class="parallax-inner">
+            <br><br><br>  <br><br><br><br><br><br>
+				  		
+		     
+			 
+          
+            <br>
+        </div>
+		
+		 <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tribute to the Overstory &#x2193; <br>Written by Richard Powers </h1>
+    </section>
+	</div>
+	
+    <section class="2">
+   	     <video  class="video-container" playsinline webkit-playsinline autoplay loop muted  width="100%" height="auto">
+  <source src="video/background%20meadow%20AE_3.mp4" type="video/mp4">	</video>
+		<!--<img class="bottles flex-item" src="images/tree%20major.png"style="margin-left: 1%;">-->
+		
+
+		</section>
+    <section class="parallax-2">
+        <div class="parallax-inner">
+			
+            <br>
+            			
+  <h1><br> <br> <br><br>
+	<br><br><br><br>“No one sees trees. <br> We see fruit, <br>we see nuts, <br>we see wood,<br> we see shade. <br>We see ornaments or pretty fall foliage. <br>Obstacles blocking the road or wrecking the ski slope. <br>Dark, threatening places that must be cleared. <br>We see branches about to crush our roof. <br> We see a cash crop. <br>But trees - TREES ARE INVISIBLE.” <br>
+― Richard Powers, The Overstory<br>
+	  
+            <br></h1>
+			<img id="drone" src="images/Asset%201.svg"  style="height: 20%;" alt="drone flying throughout pages">
+			<!--<img src="images/bottles%20yellow.png" opacity:.5>-->
+			
+					 <div>
+				 	
+		 
+	
+		</div>
+			
+        </div>
+		
+    </section>
+
+	<div class="video-container parallax-container flex-container">
+       <video  class="video-container" playsinline webkit-playsinline autoplay loop muted  width="100%" height="auto">
+  <source src="video/Mograph%20tree_4.mp4" type="video/mp4">	</video>
+</div>
+		 
+		
+<img class="con flex-item" src="img-gifs/black-mouse-gif.gif">
+		<img class="con-grey flex-item" src="img-gifs/grey-mouse.gif">
+			<img class="con-white flex-item" src="img-gifs/white-mouse-gif">
+		    <img class="con-black flex-item" src="img-gifs/black-mouse2-gif.gif">
+	 	
+
+			 <div>
+				 	 <h2><br>“We found that trees could communicate, over the air and through their roots. Common sense hooted us down. We found that trees take care of each other. Collective science dismissed the idea. Outsiders discovered how seeds remember the seasons of their childhood and set buds accordingly. Outsiders discovered that trees sense the presence of other nearby life. That a tree learns to save water. That trees feed their young and synchronize their masts and bank resources and warn kin and send out signals to wasps to come and save them from attacks. “Here’s a little outsider information, and you can wait for it to be confirmed. A forest knows things. They wire themselves up underground. There are brains down there, ones our own brains aren’t shaped to see. Root plasticity, solving problems and making decisions. Fungal synapses. What else do you want to call it? Link enough trees together, and a forest grows aware.” 
+― Richard Powers, The Overstory<br></h2><br>
+		 
+	
+		</div>
 
 	</section>		  
 

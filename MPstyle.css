@@ -486,7 +486,7 @@ h1  {
 	}
 	
 		.flex-containerC {
-		background-color: white;
+		background-color: rgb(108, 17, 17);
 		margin-top: -10%;
 		width: 100%;
         height: auto;
@@ -497,7 +497,17 @@ h1  {
  
 	}
 	
-	
+  .flex-containerE {
+		background-color: white;
+		margin-top: -10%;
+		width: 100%;
+        height: auto;
+		flex-flow: wrap;
+		 
+  		justify-content: left;
+	    position:absolute;
+ 
+	}
 	#videes {
 		margin-top: -50px;
 	}
