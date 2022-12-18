@@ -487,7 +487,7 @@ h1  {
 	
 		.flex-containerC {
 		background-color: white;
-		margin-top: 0%;
+		margin-top: -40%;
 		width: 100%;
         height: auto;
 		flex-flow: wrap;
@@ -496,7 +496,10 @@ h1  {
 	    position:absolute;
  
 	}
-	
+	#framedphotos {
+
+    margin-top: 20%;
+  }
  
 	#videes {
 		margin-top: -50px;
