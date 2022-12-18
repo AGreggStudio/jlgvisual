@@ -219,7 +219,7 @@ h1  {
 .flex-container {
   /* We first create a flex layout context */
 	
-  	display: flex;
+  display: flex;
 	position: absolute;
 	
 	
@@ -237,7 +237,7 @@ h1  {
   
   list-style:none;
   background-color: white;
-  margin-top: -40%;
+  margin-top: -10%;
 	
 }
 
