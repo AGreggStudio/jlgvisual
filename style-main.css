@@ -777,7 +777,7 @@ aside {
 		/* Center items by placing them in the two center columns: */
 		
 		
-
+   
 	
 
 
@@ -798,9 +798,9 @@ aside {
 		}
 
 		/* Use automatic grid placement + span to let each item span two columns: */
+    @media screen and (max-width: 550px) {
 
 
-	}
 
 
 }

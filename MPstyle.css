@@ -590,8 +590,10 @@ h1  {
 		
 
   @media screen and (max-width: 600px) {
-   .section {
-      background-color: olive;
-      color: white;
-    }
+  .scroll-up{
+    display: none;
+  }
+  .scroll-left {
+    display:none;
+  }
   }
