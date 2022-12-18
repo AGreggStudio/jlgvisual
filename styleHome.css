@@ -215,3 +215,15 @@ h2{
   transform: scaleX(-1);
 }
 
+@media screen and (max-width: 550px) {
+
+  .scroll-up {
+    display:none;
+
+  }
+
+  .scroll-left {
+    display:none;
+
+  }
+}
