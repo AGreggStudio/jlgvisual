@@ -39,8 +39,13 @@ body{
  
 	
 }
+.1{
+  justify-content:centre;
+}
+.parallax{
 
-
+  justify-content:centre;
+}
 .flex-item {
 
   width: 10%;

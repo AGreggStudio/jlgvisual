@@ -241,6 +241,30 @@ h1  {
 	
 }
 
+.flex-containerAUS {
+  /* We first create a flex layout context */
+	
+  	display: flex;
+	position: absolute;
+	
+	
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content:space-evenly;
+  padding: 0;
+  
+  list-style:none;
+  background-color: white;
+  margin-top: 0%;
+	
+}
 
 .flex-containerD {
 	margin-top: 5%;
@@ -487,7 +511,7 @@ h1  {
 	
 		.flex-containerC {
 		background-color: white;
-		margin-top: -40%;
+		margin-top: -0%;
 		width: 100%;
         height: auto;
 		flex-flow: wrap;
