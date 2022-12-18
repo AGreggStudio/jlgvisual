@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>JLG Visual</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./styleHome.css">
 	 <link rel="stylesheet" href="./style-main.css">
 	<script src="js/gsap.min.js"></script>
@@ -76,7 +77,6 @@ li {
  width: 100%;
  height: 100%;
  margin: 30;
- 
  line-height: 50px;
  text-align: center;
  z-index: -1000;
@@ -124,11 +124,9 @@ li {
  margin-top: -15%;
  margin-right: -5%;   
  height: 110px;
- 
  font-size: 100px;
-overflow: hidden;
+ overflow: hidden;
  position: relative;
- 
  color: #fcfcfa;
  text-shadow: 2px 2px #4e4e4c;
 
@@ -155,16 +153,19 @@ overflow: hidden;
  }
 }
 
-@media (max-width: 500px)  {
+@media only screen and (max-width: 500px)  {
 	.scroll-left {
 		display: none;
 	}
 	.scroll-up {
-		display:none;
+	
 	}
 
 	.logo-link {
 		margin-top: 20%;
+	}
+	.parallax-inner {
+		display: none;
 	}
 	}
 
