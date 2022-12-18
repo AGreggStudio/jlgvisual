@@ -296,7 +296,7 @@ h1  {
 
 
 	
-}
+
 
 @media screen and (max-width: 800px) {
 	
@@ -331,7 +331,7 @@ h1  {
   text-align: center;
   display: inline-block;
   margin-top: 100px;
-  color: rgba(200,0,0,0.8);
+  color: rgb(248, 242, 242);
   font-family: "Lato", sans-serif;
   font-family:monospace;
   z-index: 1000;
@@ -486,8 +486,8 @@ h1  {
 	}
 	
 		.flex-containerC {
-		background-color: rgb(108, 17, 17);
-		margin-top: -10%;
+		background-color: white;
+		margin-top: 0%;
 		width: 100%;
         height: auto;
 		flex-flow: wrap;
@@ -497,17 +497,7 @@ h1  {
  
 	}
 	
-  .flex-containerE {
-		background-color: white;
-		margin-top: -10%;
-		width: 100%;
-        height: auto;
-		flex-flow: wrap;
-		 
-  		justify-content: left;
-	    position:absolute;
  
-	}
 	#videes {
 		margin-top: -50px;
 	}
