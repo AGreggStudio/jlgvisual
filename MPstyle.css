@@ -237,7 +237,7 @@ h1  {
   
   list-style:none;
   background-color: white;
-  margin-top: 35px;
+  margin-top: -40%;
 	
 }
 
@@ -496,10 +496,7 @@ h1  {
 	    position:absolute;
  
 	}
-	#framedphotos {
-
-    margin-top: 20%;
-  }
+	
  
 	#videes {
 		margin-top: -50px;
@@ -568,3 +565,9 @@ h1  {
 
 		
 
+  @media screen and (max-width: 600px) {
+   .section {
+      background-color: olive;
+      color: white;
+    }
+  }
