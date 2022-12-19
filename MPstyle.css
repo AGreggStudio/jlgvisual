@@ -341,7 +341,8 @@ background: white;
 width: 100%;
 display: flex;
 flex-flow: wrap;
-
+border-radius: 25px;
+gap: 10px;
 }
 }
 
