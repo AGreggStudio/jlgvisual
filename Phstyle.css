@@ -1,0 +1,620 @@
+@import "https://fonts.googleapis.com/css?family=Rubik+Mono+One";
+body {
+  background: #fff;
+  overflow-x: hidden;
+  font-family: 'Helvetica', sans-serif,bold;
+  padding: 0px;
+  text-align: center;
+  
+}
+
+
+
+.words {
+  color: #fff;
+  font-size: 0;
+  line-height: 1;
+  
+}
+.section {
+  font-size: 50px;
+  display: inline-block;
+  margin-top: 20px;
+  color: rgba(249, 242, 242, 0.8);
+  font-family: "Lato", sans-serif;
+  font-family:monospace;
+  z-index: 100;
+  	
+}
+
+	#contactform {
+			
+		width:  100%;
+		height:auto;
+		justify-content:center;
+	}
+
+
+	#drone {
+		position:absolute;
+		z-index: 2;
+		margin-top: -20%;
+		margin-right: 15%;
+		
+		
+	}
+ 
+.words span {
+  font-size: 120px;
+  display: inline-block;
+	z-index: -100;
+  -webkit-animation: move 2s ease-in-out infinite;
+          animation: move 2s ease-in-out infinite;
+}
+.words span:nth-child(2) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.words span:nth-child(3) {
+  -webkit-animation-delay: 1.0s;
+          animation-delay: 1.0s;
+}
+.words span:nth-child(4) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+@-webkit-keyframes move {
+  0% {
+    -webkit-transform: translate(-33%, 0);
+            transform: translate(-33%, 0);
+  }
+  50% {
+    text-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+  }
+  100% {
+    -webkit-transform: translate(33%, 0);
+            transform: translate(33%, 0);
+  }
+}
+
+@keyframes move {
+  0% {
+    -webkit-transform: translate(-33%, 0);
+            transform: translate(-33%, 0);
+  }
+  50% {
+    text-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+  }
+  100% {
+    -webkit-transform: translate(33%, 0);
+            transform: translate(33%, 0);
+  }
+}
+* {
+  box-sizing: border-box;
+	
+}
+
+
+a {
+  text-decoration: none;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  padding: 8px 16px;
+  font-family: "Lato", sans-serif;
+
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+  font-family: "Lato", sans-serif;
+
+}
+
+
+.next {
+  background-color: whitesmoke;
+  color: dimgrey;
+  border-radius: 0%;
+  border-width:medium;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+
+}
+
+.round {
+	top: 0;
+}
+
+h1 {
+	 font-family:'Helvetica', sans-serif;
+	 font-weight:50px;
+     font-size: 40px;
+	 color: black;
+	 
+}
+
+h3 {
+
+    font-family:'Helvetica', sans-serif;
+    font-weight:100;
+    font-size: 20px;
+    text-align:left;
+    color:grey;
+}
+h4{
+	font-family:'Helvetica', sans-serif;
+    font-weight:100;
+    font-size: 20px;
+	text-justify:inter-word;
+    text-align: left;
+    color: dimgray;
+	margin: 1;
+	padding: 3% 20%;
+	
+}
+
+/* navigation*/
+.topnav {
+  left: 0%;	
+  top:0%;
+  overflow: hidden;
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
+
+.icon {
+	
+	position: relative;
+	margin-right: 0%;
+	
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+	
+	
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: black;
+  font-family: "Lato", sans-serif;
+  padding: 10px 6px;
+  text-decoration:none;
+  font-size: 17px;
+  display:block;
+  text-align: end;
+  z-index: 100;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  
+  display: inline-block;
+  position:absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+ 
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #c1c1c1;
+}
+h1  {
+	position:static;
+	margin-top: 0%;
+	z-index: 100;
+}
+/*Grid*/
+.flex-container {
+  /* We first create a flex layout context */
+	
+  display: flex;
+	position: absolute;
+	
+	
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content:space-evenly;
+  padding: 0;
+  
+  list-style:none;
+  background-color: white;
+  margin-top: -10%;
+	
+}
+
+.flex-containerAUS {
+  /* We first create a flex layout context */
+	
+  	display: flex;
+	position: absolute;
+	
+	
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content:space-evenly;
+  padding: 0;
+  
+  list-style:none;
+  background-color: white;
+  margin-top: 0%;
+	
+}
+
+.flex-containerD {
+	margin-top: 5%;
+}
+ 
+
+
+#videes {
+	margin-top: -370px;
+}
+
+.flex-item {
+
+  background: white;
+  margin-top: 10px;
+   
+
+}
+
+.flex-itemWH {
+  background: white;
+  margin-top: 10px;
+}
+
+.flex-item img{
+    
+    margin-top: -5%;
+	margin-left: -15%;
+	visibility: visible;
+
+}
+
+#framedphotos {
+	
+	margin-top: -100px;
+	z-index: -10;
+	
+}
+
+#bike {
+	
+	float: left;    
+    margin: 15 0 0 0px;
+	
+}
+
+
+/* Style the active link (or home/logo) */
+
+
+/* On screens that are 600px or less, set the background color to olive */
+
+@media screen and (max-width: 1300px) {
+
+.flex-container {
+  background-color: rgb(250, 245, 245);
+  margin-top: 10%;
+  max-width: 100%;
+  height: auto;
+ 
+  justify-content:center;
+  position:absolute;
+  gap: 10px;
+}
+
+
+#videes {
+  margin-top: -170px;
+ 
+}
+
+.flex-item {
+    position: relative;
+    background: white;
+    max-width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    
+    }
+}
+
+@media screen and (max-width: 800px) {
+	
+	
+	
+.topnav {
+  left: -15%;	
+  top:0%;
+  overflow: hidden;
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
+	
+
+.icon {
+	
+	position: relative;
+	margin-right: 0%;
+	
+}	
+.words {
+  color: #fff;
+  font-size: 0;
+  line-height: 1;
+  
+  
+  
+}
+.section {
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 100px;
+  color: rgb(248, 242, 242);
+  font-family: "Lato", sans-serif;
+  font-family:monospace;
+  z-index: 1000;
+	
+}
+
+
+.words span {
+  font-size: 60px;
+  display: inline-block;
+  z-index: -100;
+  -webkit-animation: move 2s ease-in-out infinite;
+          animation: move 2s ease-in-out infinite;
+}
+	
+	video {
+		width: 100%;
+		height: 20%;
+		z-index: -100;
+	}
+	
+	h1{
+		
+		display: contents;
+		margin-top: 60%:
+	}
+	
+	.flex-container {
+		background-color: rgba(250, 253, 251, 0.914);
+		margin-top: 90%;
+		width: 100%;
+    height: auto;
+		flex-flow: wrap;
+		justify-content:center;
+	  position:absolute;
+ 
+	}
+	
+	
+	
+	#videes {
+		margin-top: -170px;
+	}
+	
+	.flex-item {
+	position: relative;
+  background: white;
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+
+}
+	
+	#contactform {
+		
+
+		
+		width:  100%;
+		height:auto;
+		justify-content:center;
+	
+	
+	}
+	
+.flex-item img {
+	width:100%;
+	height:auto;
+	margin: inherit;
+	
+
+}
+	
+	#bike {
+	
+	float: left;    
+    margin: 15 0 0 0px;
+	
+}
+
+  
+  }
+
+
+@media screen and (max-width: 550px) {
+	
+.topnav {
+  left: 40%;	
+  top:0%;
+  overflow: hidden;
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
+	
+
+.icon {
+	
+	position: relative;
+	margin-right: 0%;
+	
+}	
+.words {
+  color: #fff;
+  font-size: 0;
+  line-height: 1;
+  
+  
+}
+	
+.next {
+  background-color: whitesmoke;
+  color: dimgrey;
+  border-radius: 0%;
+  border-width:medium;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}	
+.section {
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 50px;
+  color: rgba(200,0,0,0.8);
+  font-family: "Lato", sans-serif;
+  font-family:monospace;
+
+	
+}
+
+
+.words span {
+  font-size: 40px;
+  display: inline-block;
+  margin-top: 50px;
+  z-index: -100;
+  -webkit-animation: move 2s ease-in-out infinite;
+          animation: move 2s ease-in-out infinite;
+}
+
+	
+	.flex-container {
+		background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+		margin-top: -40%;
+		max-width: 100%;
+    height: auto;
+		flex-flow: wrap;
+		justify-content:center;
+	  position:absolute;
+    overflow-x: hidden;
+ 
+	}
+	
+		.flex-containerC {
+		background-color: white;
+		margin-top: -0%;
+		width: 100%;
+        height: auto;
+		flex-flow: wrap;
+		 
+  		justify-content:center;
+	    position:absolute;
+ 
+	}
+	
+ 
+	#videes {
+		margin-top: 50px;
+	}
+	
+	.flex-item {
+  position: relative;
+  background: white;
+  max-width:100%;
+  height: auto;
+  display:flex;
+
+  flex-wrap: wrap;
+  z-index: 1;
+
+		   
+
+}
+
+	
+	.flex-item1 {
+		
+  position: relative;
+  background: white;
+  width: 0%;
+  display: flex;
+  flex-flow: wrap;
+  z-index: 1;
+
+	}
+	
+	iframe {
+		margin-top: 200px;
+	}
+
+	
+.flex-item img {
+	width:100%;
+	height:auto;
+	margin: inherit;
+	
+	
+
+}
+	
+	#bike {
+		float: left;    
+    margin: 0 0 0 0px;
+		
+		margin-top: 10%;
+	}	
+	
+	
+		h4{
+	font-family:'Helvetica', sans-serif;
+    font-weight:100;
+    font-size: 20px;
+	text-justify:inter-word;
+    text-align: left;
+    color: dimgrey;
+	margin: 1;
+	padding: 3% 5%;
+	
+
+	}
+  
+  }
+
+
+		
