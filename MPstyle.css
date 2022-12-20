@@ -393,6 +393,13 @@ flex-flow: wrap;
     }
   }
 
+
+
+  @media screen and (max-width: 850px) {
+
+    .flex-containerD {
+      margin-top: 20%;
+  }
 @media screen and (max-width: 550px) {
 	
 .topnav {
