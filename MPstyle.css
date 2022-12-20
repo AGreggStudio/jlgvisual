@@ -168,6 +168,8 @@ h4{
   z-index: 1;
 }
 
+
+
 .icon {
 	
 	position: relative;
@@ -369,10 +371,10 @@ flex-flow: wrap;
     margin-top: 20%;
   }
 }
-@media screen and  (max-width: 1030px): {
+@media screen and  (max-width: 800px) {
   
 .section {
-  font-size: 50px;
+  font-size: 20px;
   display: inline-block;
   margin-top: 20px;
   color: rgba(200,0,0,0.8);
@@ -396,163 +398,11 @@ flex-flow: wrap;
 
 
 
-  @media screen and (max-width: 50px) {
-
-    .flex-containerD {
-      margin-top: 20%;
-  }
-@media screen and (max-width: 550px) {
-	
-.topnav {
-  left: 40%;	
-  top:0%;
-  overflow: hidden;
-  position: absolute;
-  display: inline-block;
-  z-index: 1;
-}
-	
-
-.icon {
-	
-	position: relative;
-	margin-right: 0%;
-	
-}	
-.words {
-  color: #fff;
-  font-size: 0;
-  line-height: 1;
   
+
   
-}
-	
-.next {
-  background-color: whitesmoke;
-  color: dimgrey;
-  border-radius: 0%;
-  border-width:medium;
-  margin-top: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
-
-}	
-.section {
-  font-size: 12px;
-  text-align: center;
-  display: inline-block;
-  margin-top: 50px;
-  color: rgba(200,0,0,0.8);
-  font-family: "Lato", sans-serif;
-  font-family:monospace;
-
-	
-}
-
-
-.words span {
-  font-size: 40px;
-  display: inline-block;
-  margin-top: 50px;
-  z-index: -100;
-  -webkit-animation: move 2s ease-in-out infinite;
-          animation: move 2s ease-in-out infinite;
-}
-
-	
-	.flex-container {
-		background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-		margin-top: -40%;
-		max-width: 100%;
-    height: auto;
-		flex-flow: wrap;
-		justify-content:center;
-	  position:absolute;
-    overflow-x: hidden;
- 
-	}
-	
-		.flex-containerC {
-		background-color: white;
-		margin-top: -0%;
-		width: 100%;
-        height: auto;
-		flex-flow: wrap;
-		 
-  		justify-content:center;
-	    position:absolute;
- 
-	}
-	
- 
-	#videes {
-		margin-top: 50px;
-	}
-	
-	.flex-item {
-  position: relative;
-  background: white;
-  max-width:100%;
-  height: auto;
-  display:flex;
-
-  flex-wrap: wrap;
-  z-index: 1;
-
-		   
-
-}
-
-	
-	.flex-item1 {
-		
-  position: relative;
-  background: white;
-  width: 0%;
-  display: flex;
-  flex-flow: wrap;
-  z-index: 1;
-
-	}
-	
-	iframe {
-		margin-top: 200px;
-	}
-
-	
-.flex-item img {
-	width:100%;
-	height:auto;
-	margin: inherit;
-	
-	
-
-}
-	
-	#bike {
-		float: left;    
-    margin: 0 0 0 0px;
-		
-		margin-top: 10%;
-	}	
-	
-	
-		h4{
-	font-family:'Helvetica', sans-serif;
-    font-weight:100;
-    font-size: 20px;
-	text-justify:inter-word;
-    text-align: left;
-    color: dimgrey;
-	margin: 1;
-	padding: 3% 5%;
-	
-
-	}
   
   }
 
 
-		
+\
