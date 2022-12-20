@@ -319,6 +319,16 @@ h1  {
 
 @media screen and (max-width: 1300px) {
 
+  .section {
+    font-size: 40px;
+    display: inline-block;
+    margin-top: 20px;
+    color: rgba(200,0,0,0.8);
+    font-family: "Lato", sans-serif;
+    font-family:monospace;
+    z-index: 100;
+        
+  }
 .flex-container {
   background-color: white;
   margin-top: 10%;
@@ -358,7 +368,22 @@ flex-flow: wrap;
     margin-top: 20%;
   }
 }
+@media screen and  (max-width: 1030px): {
   
+.section {
+  font-size: 50px;
+  display: inline-block;
+  margin-top: 20px;
+  color: rgba(200,0,0,0.8);
+  font-family: "Lato", sans-serif;
+  font-family:monospace;
+  z-index: 100;
+}
+  	
+}
+  
+  
+
   @media screen and  (max-width: 270px) (min-width: 380px): {
 
   

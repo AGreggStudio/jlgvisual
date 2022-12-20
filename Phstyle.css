@@ -319,17 +319,36 @@ h1  {
 
 @media screen and (max-width: 1300px) {
 
+    .section {
+        font-size: 40px;
+        display: inline-block;
+        margin-top: 20px;
+        color: rgba(200,0,0,0.8);
+        font-family: "Lato", sans-serif;
+        font-family:monospace;
+        z-index: 100;
+            
+      }
 .flex-container {
   background-color: rgb(250, 245, 245);
   margin-top: 10%;
   max-width: 100%;
   height: auto;
-
   justify-content:center;
   position:absolute;
  
 }
+.flex-containerC {
+    background-color: white;
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+    flex-flow: wrap;
+     
+      justify-content:center;
+    position:absolute;
 
+}
 
 #videes {
   margin-top: -170px;
@@ -379,13 +398,12 @@ h1  {
   text-align: center;
   display: inline-block;
   margin-top: 100px;
-  color: rgb(248, 242, 242);
+  color: rgba(200,0,0,0.8);
   font-family: "Lato", sans-serif;
   font-family:monospace;
   z-index: 1000;
 	
 }
-
 
 .words span {
   font-size: 60px;
@@ -404,14 +422,14 @@ h1  {
 	h1{
 		
 		display: contents;
-		margin-top: 60%:
+		margin-top: 0%:
 	}
 	
 	.flex-container {
 		background-color: rgba(250, 253, 251, 0.914);
 		margin-top: 90%;
 		width: 100%;
-    height: auto;
+        height: auto;
 		flex-flow: wrap;
 		justify-content:center;
 	  position:absolute;
