@@ -152,7 +152,7 @@ h4{
     font-size: 20px;
 	text-justify:inter-word;
     text-align: left;
-    color: dimgray;
+    color: rgba(200,0,0,0.8);
 	margin: 1;
 	padding: 3% 20%;
 	
@@ -268,6 +268,7 @@ h1  {
 
 .flex-containerD {
 	margin-top: 5%;
+  
 }
  
 
@@ -395,7 +396,7 @@ flex-flow: wrap;
 
 
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 50px) {
 
     .flex-containerD {
       margin-top: 20%;
