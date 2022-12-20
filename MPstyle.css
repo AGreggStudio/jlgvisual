@@ -272,7 +272,6 @@ h1  {
 	margin-top: 5%;
   
 }
-
  
 
 
@@ -345,7 +344,7 @@ h1  {
 }
 
 .flex-containerD {
-	margin-top: 0%;
+	margin-top: 20%;
 }
 
 #videes {
@@ -364,11 +363,29 @@ flex-flow: wrap;
 }
 }
 
+@media screen and  (max-width: 1030px) (min-width: 1010px): {
 
+  
+  
+  .flex-containerD {
+    margin-top: 20%;
+  }
+}
 @media screen and  (max-width: 800px) {
+  
+.section {
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  color: rgba(200,0,0,0.8);
+  font-family: "Lato", sans-serif;
+  font-family:monospace;
+  z-index: 100;
+  justify-content:center;
+}
+  
 
- 
-	
+
 
 .icon {
 	
@@ -385,15 +402,7 @@ flex-flow: wrap;
   
 }
 
-.section {
-    font-size: 20px;
-    display: inline-block;
-    margin-top: 20px;
-    color: rgba(200,0,0,0.8);
-    font-family: "Lato", sans-serif;
-    font-family:monospace;
-    z-index: 100;
-  }
+
 
 .words span {
   font-size: 60px;
@@ -403,11 +412,7 @@ flex-flow: wrap;
           animation: move 2s ease-in-out infinite;
 }
 	
-	video {
-		width: 100%;
-		height: 20%;
-		z-index: -100;
-	}
+	
 	
 	h1{
 		
@@ -417,18 +422,16 @@ flex-flow: wrap;
 	
 	.flex-container {
 		background-color: rgba(250, 253, 251, 0.914);
-		margin-top: 90%;
-		width: 100%;
-        height: auto;
+		margin-top: -30%;
+		max-width: 100%;
+    height: auto;
 		flex-flow: wrap;
 		justify-content:center;
 	  position:absolute;
  
 	}
 	
-	.flex-containerD {
-    margin-top: -60%;
-  }
+	
 	
 	#videes {
 		margin-top: -170px;
@@ -440,6 +443,7 @@ flex-flow: wrap;
   width: 100%;
   display: flex;
   flex-flow: wrap;
+  justify-content:center;
 
 }
 	
@@ -466,9 +470,21 @@ flex-flow: wrap;
 	
 	float: left;    
     margin: 15 0 0 0px;
+
+
+  
+
+}
   
   
 
+  @media screen and  (max-width: 270px) (min-width: 380px): {
+
+  
+  
+    .flex-containerD {
+      margin-top: 20%;
+    }
   }
 
 
