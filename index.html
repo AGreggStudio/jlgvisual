@@ -65,7 +65,7 @@ li {
  <style>
 	
 .scroll-up {
- height: 210px;	
+ height: 100px;	
  overflow: hidden;
  position: relative;
  color: #fcfcfa;
@@ -114,6 +114,56 @@ li {
 }
 
 
+.scroll-down {
+ height: 150px;	
+ overflow: hidden;
+ position: relative;
+ color: #fcfcfa;
+ text-shadow: 2px 2px #696966;
+ font-size: 100px;
+ z-index: -1000;
+ 
+}
+.scroll-down p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 60;
+ line-height: 50px;
+ text-align: center;
+ z-index: -1000;
+ /* Starting position */
+ -moz-transform:translateY(100%);
+ -webkit-transform:translateY(100%);	
+ transform:translateY(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-up 5s linear infinite;
+ -webkit-animation: scroll-up 5s linear infinite;
+ animation: scroll-down 5s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-down {
+ 0%   { -moz-transform: translateY(-100%); }
+ 100% { -moz-transform: translateY(100%); }
+}
+@-webkit-keyframes scroll-down {
+ 0%   { -webkit-transform: translateY(-100%); }
+ 100% { -webkit-transform: translateY(100%); }
+}
+@keyframes scroll-down {
+ 0%   { 
+ -moz-transform: translateY(-100%); /* Browser bug fix */
+ -webkit-transform: translateY(-100%); /* Browser bug fix */
+ transform: translateY(-100%); 		
+ }
+ 100% { 
+ -moz-transform: translateY(100%); /* Browser bug fix */
+ -webkit-transform: translateY(100%); /* Browser bug fix */
+ transform: translateY(100%); 
+ }
+}
+
+
 </style>
 
          
@@ -121,7 +171,7 @@ li {
 <style>
 .scroll-left {
     
- margin-top: 10%;
+ margin-top: 0%;
  margin-right: -5%;   
  height: 110px;
  font-size: 100px;
@@ -158,14 +208,14 @@ li {
 
 .scroll-right {
     
- margin-top: 0%;
- margin-right: -5%;   
- height: 110px;
- font-size: 100px;
+ margin-top: 5%;
+ margin-left: -5%;   
+ height: 90px;
+ font-size: 80px;
  overflow: hidden;
  position: relative;
  color: #fcfcfa;
- text-shadow: 2px 2px #4e4e4c;
+ text-shadow: 2px 2px #da1818;
 
 }
 .scroll-right p {
@@ -176,34 +226,54 @@ li {
  line-height: 100px;
  text-align: center;
  /* Starting position */
- transform:translateX(50%);
+ transform:translateX(100%);
  /* Apply animation to this element */
- animation: scroll-left 10s linear infinite;
+ animation: scroll-right 10s linear infinite;
+
+
+@keyframes scroll-right {
+ 0%   {
+ transform: translateX(-100%); 		
+ }
+ 100% {
+ transform: translateX(100%); 
+ }
 }
 
 </style>
 <style>
 
 @media only screen and (max-width: 1400px)  {
-	
-
+	.scroll-right {
+	margin-top:20%;
+		
+}
+.scroll-left {
+	margin-top:-10%;
+		
+}
 	.topnav{
 		margin-top: 20%;
 	}
 	
 	}
 
-@media only screen and (max-width: 1000px)  {
+@media only screen and (max-width: 1050px)  {
 	.scroll-left {
 		display:none;
 	}
 	.scroll-right {
-	
+		margin-top: 5%;
+		
+	}
+
+	.scroll-up, .scroll-down {
+
 		display:none;
 	}
 
 	.topnav{
-		margin-top: 20%;
+		margin-top: 10%;
 	}
 	}
 @media only screen and (max-width: 600px)  {
@@ -213,6 +283,11 @@ li {
 	.scroll-right {
 	display: none;
 	}
+
+	.scroll-up, .scroll-down {
+
+display:none;
+}
 	.topnav{
 		margin-top: 20%;
 	}
@@ -222,14 +297,22 @@ li {
 
 </style>
 
+<div class="scroll-down">
+	<p>VIEWING & DESIGNING</p>
+	</div> 
+
+<div class="scroll-up">
+	<p>PERUSUAL & INQUIRY</p>
+	</div> 
+
 <div class="scroll-right">
-	<p>A Personal Repository </p>
+<marquee behavior="scroll" direction="right">A Personal Repository</marquee>            
+				 
 	</div> 
 
             <div class="parallax-inner">
 				
-                <br>  <br>  <br>  <br>  <br>  <br>
-				 
+
 <div class="scroll-left">
 <p>IMAGE/STORY/ANIMATE</p>
 </div>
