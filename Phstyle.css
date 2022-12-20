@@ -541,15 +541,15 @@ h1  {
 
 	
 	.flex-container {
-		background-color: white;
+	background-color: white;
     display: flex;
     flex-wrap: wrap;
-		margin-top: -40%;
-		max-width: 100%;
+	margin-top: -40%;
+	max-width: 100%;
     height: auto;
-		flex-flow: wrap;
-		justify-content:center;
-	  position:absolute;
+	flex-flow: wrap;
+	justify-content:center;
+	position:absolute;
     overflow-x: hidden;
  
 	}
