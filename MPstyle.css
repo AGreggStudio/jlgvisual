@@ -343,9 +343,7 @@ h1  {
 
 }
 
-.flex-containerD {
-	margin-top: 20%;
-}
+
 
 #videes {
   margin-top: -170px;
@@ -363,14 +361,7 @@ flex-flow: wrap;
 }
 }
 
-@media screen and  (max-width: 1030px) (min-width: 1010px): {
 
-  
-  
-  .flex-containerD {
-    margin-top: 20%;
-  }
-}
 @media screen and  (max-width: 800px) {
   
 .section {
@@ -440,7 +431,7 @@ flex-flow: wrap;
 	.flex-item {
 	position: relative;
   background: white;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-flow: wrap;
   justify-content:center;
@@ -478,13 +469,8 @@ flex-flow: wrap;
   
   
 
-  @media screen and  (max-width: 270px) (min-width: 380px): {
-
+ 
   
-  
-    .flex-containerD {
-      margin-top: 20%;
-    }
   }
 
 
