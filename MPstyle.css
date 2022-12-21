@@ -414,6 +414,7 @@ flex-flow: wrap;
 	.flex-container {
 		background-color: rgba(250, 253, 251, 0.914);
 		margin-top: -30%;
+    margin-left: 20px;
 		max-width: 100%;
     height: auto;
 		flex-flow: wrap;
@@ -432,6 +433,7 @@ flex-flow: wrap;
 	position: relative;
   background: white;
   max-width: 100%;
+  margin-left: 20px;
   display: flex;
   flex-flow: wrap;
   justify-content:center;
