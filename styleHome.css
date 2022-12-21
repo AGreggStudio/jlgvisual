@@ -105,10 +105,10 @@ h3{
 }
 h1{
     font-size: 20px;
-    text-align:center;
-	margin-top: -20%;
-	margin-left: 28%;
-	color: #D6051A;
+  text-align:center;
+	margin-top: -23%;
+	margin-left: 15%;
+	color: #f90f26;
 	position: absolute;
 	background: cover rgba(230, 225, 226, 0.3);
 	
@@ -220,3 +220,16 @@ h2{
   transform: scaleX(-1);
 }
 
+@media only screen and (max-width: 00px)  {
+
+  h1{
+    font-size: 20px;
+  text-align:center;
+	margin-top: 0%;
+	margin-left: 15%;
+	color: #f90f26;
+	position: absolute;
+	background: cover rgba(230, 225, 226, 0.3);
+	
+}
+}
