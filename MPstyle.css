@@ -334,7 +334,7 @@ h1  {
   }
 .flex-container {
   background-color: white;
-  margin-top: 10%;
+  margin-top: 20%;
   width: 100%;
   height: auto;
   flex-flow: wrap;
@@ -343,7 +343,13 @@ h1  {
 
 }
 
+}
+.flex-containerD {
+ 
+  margin-top: 20%;
 
+
+}
 
 #videes {
   margin-top: -170px;
