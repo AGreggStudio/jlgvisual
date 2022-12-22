@@ -269,7 +269,7 @@ h1  {
 }
 
 .flex-containerD {
-	margin-top: 5%;
+	margin-top: 10%;
   
 }
  
@@ -334,7 +334,7 @@ h1  {
   }
 .flex-container {
   background-color: white;
-  margin-top: 10%;
+  margin-top: 0%;
   width: 100%;
   height: auto;
   flex-flow: wrap;
@@ -343,7 +343,11 @@ h1  {
 
 }
 
-
+.flex-containerD {
+	margin-top: 40%;
+  
+}
+ 
 
 #videes {
   margin-top: -170px;
@@ -353,7 +357,7 @@ h1  {
 .flex-item {
 position: relative;
 background: white;
-width: 100%;
+max-width: 100%;
 display: flex;
 flex-flow: wrap;
 
@@ -414,7 +418,7 @@ flex-flow: wrap;
 	.flex-container {
 		background-color: rgba(250, 253, 251, 0.914);
 		margin-top: -30%;
-    margin-left: 20px;
+    margin-left: 5px;
 		max-width: 100%;
     height: auto;
 		flex-flow: wrap;
@@ -423,7 +427,7 @@ flex-flow: wrap;
  
 	}
 	
-	
+   
 	
 	#videes {
 		margin-top: -170px;
@@ -433,7 +437,7 @@ flex-flow: wrap;
 	position: relative;
   background: white;
   max-width: 100%;
-  margin-left: 20px;
+   margin-left: 20px;
   display: flex;
   flex-flow: wrap;
   justify-content:center;
