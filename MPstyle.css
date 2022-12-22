@@ -239,7 +239,7 @@ h1  {
   
   list-style:none;
   background-color: white;
- overflow-x: hidden;
+  overflow-x: hidden;
 	
 }
 
@@ -334,7 +334,7 @@ h1  {
   }
 .flex-container {
   background-color: white;
-  margin-top: 0%;
+  margin-top: 30%;
   width: 100%;
   height: auto;
   flex-flow: wrap;
