@@ -37,16 +37,6 @@ h1 {
   font-family:monospace;
 }
 
-@media screen and (max-width: 900px) {
-  section {
-    border-bottom: 1px solid white;
-    padding: 0rem;
-    height: 50vh;
-    scroll-snap-align: none;
-    text-align: center;
-    position: relative;
-  }
-}
 
 
 /*swap*/
