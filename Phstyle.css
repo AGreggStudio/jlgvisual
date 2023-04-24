@@ -418,7 +418,7 @@ h1  {
 	
 	.flex-container {
 		background-color: rgba(250, 253, 251, 0.914);
-		margin-top: -60%;
+		margin-top: -80%;
 		width: 100%;
         height: auto;
 		flex-flow: wrap;
@@ -430,7 +430,7 @@ h1  {
 	
 	.flex-containerC {
 		background-color: rgba(250, 253, 251, 0.914);
-		margin-top: -20%;
+		margin-top: -40%;
 		width: 100%;
         height: auto;
 		flex-flow: wrap;
