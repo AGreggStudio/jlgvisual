@@ -19,7 +19,7 @@ body {
 .section {
   font-size: 50px;
   display: inline-block;
-  margin-top: 0px;
+  margin-top: 20px;
   color: rgba(200,0,0,0.8);
   font-family: "Lato", sans-serif;
   font-family:monospace;
@@ -324,7 +324,7 @@ h1  {
     .section {
         font-size: 40px;
         display: inline-block;
-        margin-top: 0px;
+        margin-top: 20px;
         color: rgba(200,0,0,0.8);
         font-family: "Lato", sans-serif;
         font-family:monospace;
@@ -389,7 +389,7 @@ h1  {
 .section {
     font-size: 20px;
     display: inline-block;
-    margin-top: 0px;
+    margin-top: 20px;
     color: rgba(200,0,0,0.8);
     font-family: "Lato", sans-serif;
     font-family:monospace;
@@ -418,7 +418,7 @@ h1  {
 	
 	.flex-container {
 		background-color: rgba(250, 253, 251, 0.914);
-		margin-top: 0%;
+		margin-top: -60%;
 		width: 100%;
         height: auto;
 		flex-flow: wrap;
