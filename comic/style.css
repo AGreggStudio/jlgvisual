@@ -229,7 +229,7 @@ body {
   transform: scale(1.5) translate(20%, 0%);
   opacity: 1;
   z-index: 1;
-  background-image: url("img/argument.jpg");
+  background-image: url("img/argument2.jpg");
   background-size: cover;}
 .panel:nth-child(11) {
   flex-basis: 200px;
