@@ -1,0 +1,324 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.comic {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Comic Sans', cursive;
+  padding: 1vmin;
+  background-image: url("img/comic\ fungi.png");
+}
+
+.panel {
+  background-color: #040000;
+  border: solid 2px #000;
+  box-shadow: 0 6px 6px -6px #000;
+  display: inline-block;
+  flex: 1 1;
+  height: 200px;
+  margin: 1vmin;
+  overflow: hidden;
+  position: relative;
+
+
+}
+
+.panel {
+  transition: transform 250ms, opacity 400ms;
+}
+
+
+
+
+
+.text {
+  background-color: #fff;
+  border: solid 2px #000;
+  margin: 0;
+  padding: 3px 10px;
+}
+
+.top-left {
+  left: -6px;
+  position: absolute;
+  top: -2px;
+  transform: skew(-15deg);
+}
+
+.bottom-right {
+  bottom: -2px;
+  position: absolute;
+  right: -6px;
+  
+}
+
+.speech {
+  background-color: #fff;
+  border: solid 2px #000;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 2.1em;
+  padding: .2em .2em;
+  position: relative;
+}
+
+.speech:before {
+  border: solid 12px transparent;
+  border-left: solid 12px #000;
+  border-top: solid 12px #000;
+  bottom: -24px;
+  content: "";
+  height: 0;
+  left: 24px;
+  position: absolute;
+  transform: skew(-15deg);
+  width: 0;
+}
+
+.speech:after {
+  border: solid 10px transparent;
+  border-left: solid 10px #fff;
+  border-top: solid 10px #fff;
+  bottom: -19px;
+  content: "";
+  height: 0;
+  left: 27px;
+  position: absolute;
+  transform: skew(-15deg);
+  width: 0;
+}
+
+.panel:nth-child(1) {
+  flex-basis: 400px;
+  background-image: url("img/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.panel:nth-child(1):hover {
+
+  transform: scale(1.5) translate(15%, 20%);
+  opacity: 1;
+  z-index: 1;
+  background-image: url("img/comic\ fungi.png");
+  background-size: cover;
+  
+}
+
+.bottom-right:hover{
+
+  display: none;
+}
+
+.top-left:hover{
+
+  display: none;
+}
+
+.panel:nth-child(2) {
+  flex-basis: 400px;
+  background-image: url("img/2.jpg");
+  background-size: cover;
+}
+
+.panel:nth-child(2):hover {
+  transform: scale(1.5) translate(10%, 20%);
+  opacity: 1;
+  z-index: 1;
+  background-image: url("img/spores-abound.gif");
+  background-size: cover;}
+
+
+
+
+
+.panel:nth-child(3) {
+  flex-basis: 200px;
+  background-image: url("img/3.jpg");
+  background-size: cover;
+}
+.panel:nth-child(3):hover {
+  transform: scale(1.5) translate(0%, 20%);
+  opacity: 1;
+  z-index: 1;
+  background-image: url("img/tycoon:speech.jpg");
+  background-size: cover;
+}
+.panel:nth-child(4) {
+  flex-basis: 200px;
+  background-image: url("img/4.jpg");
+  background-size: cover;
+}
+.panel:nth-child(4):hover {
+  transform: scale(1.5) translate(-15%, 20%);
+  opacity: 1;
+  z-index: 1;
+  background-image: url("img/ribbon\ 2.jpg");
+  background-repeat: repeat-x;
+}
+.panel:nth-child(5) {
+  flex-basis: 200px;
+  background-image: url("img/5.jpg");
+  background-size: cover;
+}
+
+.panel:nth-child(6) {
+  flex-basis: 200px;
+  background-image: url("img/6.jpg");
+  background-size: cover;
+}
+.panel:nth-child(6):hover {
+  transform: scale(1.5) translate(-10%, 0%);
+  opacity: 1;
+  z-index: 1;
+  background-image: url("img/defending.jpg");
+  background-repeat: repeat-x;
+}
+
+.panel:nth-child(7) {
+  flex-basis: 400px;
+  background-image: url("img/7.jpg");
+  background-size: cover;
+}
+
+.panel:nth-child(7):hover {
+
+  transform: scale(1.55) translate(-20%, 0%);
+  opacity: 1;
+  z-index: 1;
+  background-image: url("img/opposing.jpg");
+  background-size: cover;}
+
+.panel:nth-child(8) {
+  flex-basis: 200px;
+  background-image: url("img/8.jpg");
+  background-size: cover;
+}
+
+.panel:nth-child(8):hover {
+
+  transform: scale(1.5) translate(-20%, 0%);
+  opacity: 1;
+  z-index: 1;
+  background-image: url("img/old\ growth.jpg");
+  background-size: cover;}
+
+.panel:nth-child(9) {
+  flex-basis: 200px;
+  background-image: url("img/9.jpg");
+  background-size: cover;
+}
+.panel:nth-child(9):hover {
+
+  transform: scale(1.5) translate(-20%, 0%);
+  opacity: 1;
+  z-index: 1;
+  background-image: url("img/interdep.jpg");
+  background-size: cover;}
+
+.panel:nth-child(10) {
+  flex-basis: 400px;
+  background-image: url("img/10.jpg");
+  background-size: cover;
+}
+.panel:nth-child(10):hover {
+
+  transform: scale(1.5) translate(20%, 0%);
+  opacity: 1;
+  z-index: 1;
+  background-image: url("img/argument.jpg");
+  background-size: cover;}
+.panel:nth-child(11) {
+  flex-basis: 200px;
+  background-image: url("img/11.jpg");
+  background-size: cover;
+}
+
+
+.panel:nth-child(11):hover {
+
+  transform: scale(1.5) translate(-10%, 0%);
+  opacity: 1;
+  z-index: 1;
+  background-image: url("img/comp:coop.jpg");
+  background-size: cover;}
+
+.panel:nth-child(12) {
+  flex-basis: 400px;
+  background-image: url("img/12.jpg");
+  background-size: cover;
+}
+.panel:nth-child(12):hover {
+
+  transform: scale(1.5) translate(10%, 0%);
+  opacity: 1;
+  z-index: 1;
+  background-image: url("img/kinship.jpg");
+  background-size: cover;}
+
+
+.panel:nth-child(13) {
+  flex-basis: 200px;
+  background-image: url("img/13.jpg");
+  background-size: cover;
+}
+.panel:nth-child(13):hover {
+
+  transform: scale(1.5) translate(-20%, 0%);
+  opacity: 1;
+  z-index: 1;
+  background-image: url("img/claw.jpg");
+  background-size: cover;}
+.panel:nth-child(14) {
+  flex-basis: 600px;
+  background-image: url("img/14.jpg");
+  background-size: cover;
+}
+
+.panel:nth-child(14):hover {
+
+  transform: scale(1.5) translate(10%, -30%);
+  opacity: 1;
+  z-index: 1;
+  background-image: url("img/FUN\ LOG.jpg");
+  background-size: cover;}
+.panel:nth-child(15):hover {
+
+  transform: scale(1.5) translate(-10%, -30%);
+  opacity: 1;
+  z-index: 1;
+  background-image: url("img/second-last-page.gif");
+  background-repeat:no-repeat;
+  background-size:80%;}
+
+
+.panel:nth-child(15) {
+  flex-basis: 200px;
+  background-image: url("img/15.jpg");
+  background-size: cover;
+}
+
+.panel:nth-child(16) {
+  flex-basis: 200px;
+}
+
+.panel:nth-child(17) {
+  flex-basis: 400px;
+}
+
+.panel:nth-child(18) {
+  flex-basis: 200px;
+}
+
+.panel:nth-child(19) {
+  flex-basis: 200px;
+}
+
+/* background colours  background-image: radial-gradient(circle, rgb(251, 251, 243), orange); 
+background-image: radial-gradient(circle, lightblue, deepskyblue);
+background-image: radial-gradient(circle, palegreen, yellowgreen)
+ background-image: radial-gradient(circle, lightcoral, tomato);*/
+
