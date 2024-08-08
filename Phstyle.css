@@ -467,10 +467,12 @@ h1  {
 	width:100%;
 	height:auto;
 	margin: inherit;
-	
-
+  margin-top: -5%;
+  margin-left: -15%;
+  visibility: visible;
 }
 	
+
 	#bike {
 	
 	float: left;    
