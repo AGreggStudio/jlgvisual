@@ -415,7 +415,11 @@ h1  {
 		display: contents;
 		margin-top: 0%:
 	}
-	h3 h2{
+
+  h2{
+    display:none;
+  }
+	h3{
     display: none;
   }
 	.flex-container {
