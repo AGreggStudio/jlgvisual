@@ -415,7 +415,9 @@ h1  {
 		display: contents;
 		margin-top: 0%:
 	}
-	
+	h3 h2{
+    display: none;
+  }
 	.flex-container {
 		background-color: rgba(250, 253, 251, 0.914);
 		margin-top: -80%;
