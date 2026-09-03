@@ -204,7 +204,7 @@ img {
 #ozpar {
 	
 	margin-top: 100%;
-	margin-left: 5%;
+	margin-left: 10%;
 }
 
 
@@ -220,7 +220,7 @@ img {
   min-width: 150px;
   min-height: 200px;
   top: 50%;
-  left: 42%;
+  left: 52%;
   -webkit-transform: translate(-40%, -50%) scale(0.5);
           transform: translate(-50%, -50%) scale(0.5);
   -webkit-transform-style: preserve-3d;
@@ -277,4 +277,5 @@ img {
 
 
   
+}
 
